@@ -21,41 +21,46 @@ use function PHPUnit\Framework\exactly;
 class FrontController extends Controller
 {
     //HOME PAGE
-    public function home(Request $request){
+    public function home(Request $request)
+    {
         //return PropertyMedia::all();
         //return PropertyMedia::query()->where('property_id','=','')->get();
         $clientIP = request()->ip();
-        $allPreConstructData = Property::query()->where('property_type','=','pre-construct')->where('internal_status','=','1')->where('most_recent_upload','=','1')
-            ->with('property_media','cat_details')->take(6)->orderBy('id','DESC')->with(['agent_details'])->get()->toArray();
-//        echo '<pre>';
+        $allPreConstructData = Property::query()->where('property_type', '=', 'pre-construct')->where('internal_status', '=', '1')->where('most_recent_upload', '=', '1')
+            ->with('property_media', 'cat_details')->take(6)->orderBy('id', 'DESC')->with(['agent_details'])->get()->toArray();
+        //        echo '<pre>';
 //        print_r($allPreConstructData);
 //        echo '</pre>';
 //        exit();
-        $allSaleData = Property::query()->where('property_type','=','sale')->where('internal_status','=','1')->where('most_recent_upload','=','1')
-            ->take(6)->with('property_media')->orderBy('id','DESC')->with(['agent_details','cat_details'])->get()->toArray();
+        $allSaleData = Property::query()->where('property_type', '=', 'sale')->where('internal_status', '=', '1')->where('most_recent_upload', '=', '1')
+            ->take(6)->with('property_media')->orderBy('id', 'DESC')->with(['agent_details', 'cat_details'])->get()->toArray();
         $allCategory = Category::all();
         $allAgent = Agent::all()->take(3);
-        $allBlog = Blog::query()->where('status',1)->take(6)->get();
-//        return $allBlog;exit();
+        $allBlog = Blog::query()->where('status', 1)->take(6)->get();
+        //        return $allBlog;exit();
         $allCat = Category::all();
-        return view('frontend.pages.home',compact('clientIP','allPreConstructData','allSaleData','allAgent','allBlog','allCat','allCategory'));
+        return view('frontend.pages.home', compact('clientIP', 'allPreConstructData', 'allSaleData', 'allAgent', 'allBlog', 'allCat', 'allCategory'));
     }
 
     //ABOUT PAGE
-    public function aboutUs(){
+    public function aboutUs()
+    {
         return view('frontend.pages.about');
     }
     //TESTIMONIALS PAGE
-    public function testimonial(){
+    public function testimonial()
+    {
         return view('frontend.pages.testimonial');
     }
     //AGENT PAGE
-    public function agent(){
+    public function agent()
+    {
         $allAgent = Agent::query()->paginate('4');
-        return view('frontend.pages.agent',compact('allAgent'));
+        return view('frontend.pages.agent', compact('allAgent'));
     }
     //TESTIMONIALS PAGE
-    public function contact_us(){
+    public function contact_us()
+    {
         return view('frontend.pages.contact-us');
     }
     //SUBSCRIBE NEWS-LETTER USING AJAX
@@ -68,7 +73,7 @@ class FrontController extends Controller
         ]);
 
         $error = $validator->errors()->messages();
-        if($error) {
+        if ($error) {
             return response()->json(array('success' => false, 'message' => $error['email'][0]));
         } else {
             $subscription = new Subscriber(array(
@@ -79,15 +84,17 @@ class FrontController extends Controller
         }
     }
     //BLOGS PAGE
-    public function blog_pages(){
-        $allBlogData = Blog::query()->where('status',1)->paginate('3');
-        return view('frontend.pages.blogs.blog-page',compact('allBlogData'));
+    public function blog_pages()
+    {
+        $allBlogData = Blog::query()->where('status', 1)->paginate('3');
+        return view('frontend.pages.blogs.blog-page', compact('allBlogData'));
     }
     //BLOGS2 PAGE
-    public function blog_detail($blogId){
-        $blogDetail = Blog::query()->where('id','=',$blogId)->get();
+    public function blog_detail($blogId)
+    {
+        $blogDetail = Blog::query()->where('id', '=', $blogId)->get();
         //return $blogDetail;exit();
-        $similarBlogs = Blog::query()->where('id','!=',$blogId)->orderBy('id','desc')->where('status',1)->take(6)->get();
+        $similarBlogs = Blog::query()->where('id', '!=', $blogId)->orderBy('id', 'desc')->where('status', 1)->take(6)->get();
         //example 1 got error
         $post_time = $this->timeAgo(Carbon::parse($similarBlogs[0]->created_at)->format('Y-m-d H:i:s'));
 
@@ -95,7 +102,7 @@ class FrontController extends Controller
 //          $date = Carbon::now();
 //          $output = $date->toArray();
 //         return $output;exit();
-          //return $output['minute'];
+        //return $output['minute'];
 
         //example 4
 //        return str_ireplace(
@@ -110,87 +117,90 @@ class FrontController extends Controller
         //return $created;exit();
         //return $created ->diff(\Carbon\Carbon::now())->format('%d days, %h hours and %i minutes'); exit();
         //return $created ->diff(\Carbon\Carbon::now())->format('%y year, %m months, %d days, %h hours and %i minutes'); exit();
-        return view('frontend.pages.blogs.blog-detail',compact('blogDetail','similarBlogs','post_time'));
+        return view('frontend.pages.blogs.blog-detail', compact('blogDetail', 'similarBlogs', 'post_time'));
     }
 
     function timeAgo($time_ago)
     {
         $time_ago = Carbon::parse($time_ago)->format('Y-m-d H:i:s');
-        $cur_time   = time();
-        $time_elapsed   = $cur_time - strtotime($time_ago);
-        $seconds    = $time_elapsed ;
-        $minutes    = round($time_elapsed / 60 );
-        $hours      = round($time_elapsed / 3600);
-        $days       = round($time_elapsed / 86400 );
-        $weeks      = round($time_elapsed / 604800);
-        $months     = round($time_elapsed / 2600640 );
-        $years      = round($time_elapsed / 31207680 );
+        $cur_time = time();
+        $time_elapsed = $cur_time - strtotime($time_ago);
+        $seconds = $time_elapsed;
+        $minutes = round($time_elapsed / 60);
+        $hours = round($time_elapsed / 3600);
+        $days = round($time_elapsed / 86400);
+        $weeks = round($time_elapsed / 604800);
+        $months = round($time_elapsed / 2600640);
+        $years = round($time_elapsed / 31207680);
         // Seconds
-        if($seconds <= 60){
+        if ($seconds <= 60) {
             return "just now";
         }
         //Minutes
-        else if($minutes <=60){
-            if($minutes==1){
+        else if ($minutes <= 60) {
+            if ($minutes == 1) {
                 return "one minute ago";
-            }
-            else{
+            } else {
                 return "$minutes minutes ago";
             }
         }
         //Hours
-        else if($hours <=24){
-            if($hours==1){
+        else if ($hours <= 24) {
+            if ($hours == 1) {
                 return "an hour ago";
-            }else{
+            } else {
                 return "$hours hrs ago";
             }
         }
         //Days
-        else if($days <= 7){
-            if($days==1){
+        else if ($days <= 7) {
+            if ($days == 1) {
                 return "yesterday";
-            }else{
+            } else {
                 return "$days days ago";
             }
         }
         //Weeks
-        else if($weeks <= 4.3){
-            if($weeks==1){
+        else if ($weeks <= 4.3) {
+            if ($weeks == 1) {
                 return "a week ago";
-            }else{
+            } else {
                 return "$weeks weeks ago";
             }
         }
         //Months
-        else if($months <=12){
-            if($months==1){
+        else if ($months <= 12) {
+            if ($months == 1) {
                 return "a month ago";
-            }else{
+            } else {
                 return "$months months ago";
             }
         }
         //Years
-        else{
-            if($years==1){
+        else {
+            if ($years == 1) {
                 return "one year ago";
-            }else{
+            } else {
                 return "$years years ago";
             }
         }
     }
     //coming-soon page
-    public function coming_soon(){
+    public function coming_soon()
+    {
         return view('frontend.pages.coming-soon');
     }
     //map all property display
-    public function location_data(Request $request){
+    public function location_data(Request $request)
+    {
         return Property::join('categories', 'categories.id', '=', 'properties.category')
-//            ->select('id','latitude','longitude','address','city','zip','country_state','bathrooms','bedrooms','price','after_price_label','before_price_label',
+            //            ->select('id','latitude','longitude','address','city','zip','country_state','bathrooms','bedrooms','price','after_price_label','before_price_label',
 //            'property_type','source','category','listed_in','from_rooms','to_rooms','from_bedrooms','to_bedrooms','from_bathrooms','to_bathrooms','from_size_in_sqft','to_size_in_sqft')
-                ->select('properties.*')
-            ->where('internal_status','=','1')
-            ->when(request('property_id') != null, function ($q) { return $q->whereIn('properties.id', request('property_id')); })
+            ->select('properties.*')
+            ->where('internal_status', '=', '1')
+            ->when(request('property_id') != null, function ($q) {
+                return $q->whereIn('properties.id', request('property_id'));
+            })
             ->when(request('sort_by') != null, function ($q) {
 
                 switch (request('sort_by')) {
@@ -242,28 +252,28 @@ class FrontController extends Controller
                         break;
                     case "commercial_residential":
 
-//                        $q->orderBy(function ($query) {
+                        //                        $q->orderBy(function ($query) {
 //                            $query->select('name')
 //                                ->from('categories')
 //                                ->whereColumn('categories.id', 'properties.category')
                         $q->orderByRaw("CASE WHEN categories.name = 'Commercial' THEN 1 WHEN categories.name = 'Residential' THEN 2 ELSE 3 END");
-//                        });
+                        //                        });
                         break;
                     case "residential_commercial":
 
-//                        $q->orderBy(function ($query) {
+                        //                        $q->orderBy(function ($query) {
 //                            $query->select('name')
 //                                ->from('categories')
 //                                ->whereColumn('categories.id', 'properties.category')
                         $q->orderByRaw("CASE WHEN categories.name = 'Residential' THEN 1 WHEN categories.name = 'Commercial' THEN 2 ELSE 3 END");
-//                        });
+                        //                        });
                         break;
                 }
             })
-            ->with('property_media','cat_details')
+            ->with('property_media', 'cat_details')
             //->orderBy('id','desc')
             ->get();
-//        return Category::query()->where('id',$locationData->category)->with('cat_details')->get();
+        //        return Category::query()->where('id',$locationData->category)->with('cat_details')->get();
 //        return response($locationData);
     }
     //filter box property_status search
@@ -321,12 +331,17 @@ class FrontController extends Controller
 //        echo 'test';
 //    }
 
-    public function filterProperty(Request $request) {
+    public function filterProperty(Request $request)
+    {
         // dd($request->all());
         return Property::join('categories', 'categories.id', '=', 'properties.category')
-            ->where('internal_status','=','1')
-            ->when(request('property_type') != 'none', function ($q) { return $q->where('category',  request('property_type')); })
-            ->when(request('transaction_type') != 'none', function ($q) { return $q->where('property_type', request('transaction_type')); })
+            ->where('status', '=', '1')
+            ->when(request('property_type') != 'none', function ($q) {
+                return $q->where('category', request('property_type'));
+            })
+            ->when(request('transaction_type') != 'none', function ($q) {
+                return $q->where('property_type', request('transaction_type'));
+            })
             // ->when(request('postal_city_street') != null, function ($q) {
 
             //     $ok = $q->where('city', 'like', '%'.request('postal_city_street').'%')
@@ -356,24 +371,28 @@ class FrontController extends Controller
                         ->orWhere(DB::raw("CONCAT_WS(', ', zip, city)"), 'LIKE', '%' . $filter . '%');
                 });
             })
-            ->when(request('min_price') != '0', function ($q) { return $q->where('price', '>=', (int)request('min_price')); })
-            ->when(request('max_price') != '0', function ($q) { return $q->where('price', '<=', (int)request('max_price')); })
+            ->when(request('min_price') != '0', function ($q) {
+                return $q->where('price', '>=', (int) request('min_price'));
+            })
+            ->when(request('max_price') != '0', function ($q) {
+                return $q->where('price', '<=', (int) request('max_price'));
+            })
             ->when(request('bed') != 'none', function ($q) {
-               //dd(request('transaction_type'));
-               $transaction_type = request('transaction_type');
-               if($transaction_type == "pre-construct"){
-                   $q->where(function ($q){
-                       $q->where('to_bedrooms','>=',request('bed'));
-                       $q->where('from_bedrooms','<=',request('bed'));
-                   });
-               }else{
-                   return (request('bed') != '5') ? $q->where('bedrooms',request('bed')) : $q->where('bedrooms', '>=', request('bed'));
+                //dd(request('transaction_type'));
+                $transaction_type = request('transaction_type');
+                if ($transaction_type == "pre-construct") {
+                    $q->where(function ($q) {
+                        $q->where('to_bedrooms', '>=', request('bed'));
+                        $q->where('from_bedrooms', '<=', request('bed'));
+                    });
+                } else {
+                    return (request('bed') != '5') ? $q->where('bedrooms', request('bed')) : $q->where('bedrooms', '>=', request('bed'));
 
-               }
-               //$q->orwhere('bedrooms',request('bed'));
+                }
+                //$q->orwhere('bedrooms',request('bed'));
             })
 
-//            ->when(request('bed') != 'none', function ($q){
+            //            ->when(request('bed') != 'none', function ($q){
 //                    $q->where(function ($q){
 //                    $q->where('property_type','=','sale');
 //                    $q->where('bedrooms',request('bed'));
@@ -388,17 +407,17 @@ class FrontController extends Controller
 //            })
             ->when(request('bath') != 'none', function ($q) {
                 $transaction_type = request('transaction_type');
-                if($transaction_type == "pre-construct"){
-                    $q->where(function ($q){
-                        $q->where('to_bathrooms','>=',request('bath'));
-                        $q->where('from_bathrooms','<=',request('bath'));
+                if ($transaction_type == "pre-construct") {
+                    $q->where(function ($q) {
+                        $q->where('to_bathrooms', '>=', request('bath'));
+                        $q->where('from_bathrooms', '<=', request('bath'));
                     });
-                }else{
-                    return (request('bath')  != '5') ? $q->where('bathrooms', request('bath')) : $q->where('bathrooms', '>=', request('bath'));
+                } else {
+                    return (request('bath') != '5') ? $q->where('bathrooms', request('bath')) : $q->where('bathrooms', '>=', request('bath'));
 
                 }
             })
-//            ->when(request('size') != 'none', function ($q) {
+            //            ->when(request('size') != 'none', function ($q) {
 //                //$size = explode('-', request('size'));
 ////                return $size;
 ////                $q->where(function ($q){
@@ -420,69 +439,69 @@ class FrontController extends Controller
             ->when(request('size') != 'none', function ($q) {
                 $size = explode('-', request('size'));
                 $transaction_type = request('transaction_type');
-                if($transaction_type == "pre-construct"){
+                if ($transaction_type == "pre-construct") {
                     //dd($size);
-                    if(!empty($size[1])){
-                        if(($size[0] >= 0 && $size[1] <= 2000)){
-                            $q->where('to_size_in_sqft','>=',0);
-                            $q->where('from_size_in_sqft','<=',2000);
+                    if (!empty($size[1])) {
+                        if (($size[0] >= 0 && $size[1] <= 2000)) {
+                            $q->where('to_size_in_sqft', '>=', 0);
+                            $q->where('from_size_in_sqft', '<=', 2000);
                         }
-                        if(($size[0] >= 2001 && $size[1] <= 3000)){
-                            $q->where('to_size_in_sqft','>=',2001);
-                            $q->where('from_size_in_sqft','<=',3000);
+                        if (($size[0] >= 2001 && $size[1] <= 3000)) {
+                            $q->where('to_size_in_sqft', '>=', 2001);
+                            $q->where('from_size_in_sqft', '<=', 3000);
                         }
-                        if(($size[0] >= 3001 && $size[1] <= 4000)){
-                            $q->where('to_size_in_sqft','>=',3001);
-                            $q->where('from_size_in_sqft','<=',4000);
+                        if (($size[0] >= 3001 && $size[1] <= 4000)) {
+                            $q->where('to_size_in_sqft', '>=', 3001);
+                            $q->where('from_size_in_sqft', '<=', 4000);
                         }
-                        if(($size[0] >= 4001 && $size[1] <= 5000)){
-                            $q->where('to_size_in_sqft','>=',4001);
-                            $q->where('from_size_in_sqft','<=',5000);
+                        if (($size[0] >= 4001 && $size[1] <= 5000)) {
+                            $q->where('to_size_in_sqft', '>=', 4001);
+                            $q->where('from_size_in_sqft', '<=', 5000);
                         }
-                        if(($size[0] >= 5001 && $size[1] <= 7000)){
-                            $q->where('to_size_in_sqft','>=',5001);
-                            $q->where('from_size_in_sqft','<=',7000);
+                        if (($size[0] >= 5001 && $size[1] <= 7000)) {
+                            $q->where('to_size_in_sqft', '>=', 5001);
+                            $q->where('from_size_in_sqft', '<=', 7000);
                         }
-                        if(($size[0] >= 7001 && $size[1] <= 10000)){
-                            $q->where('to_size_in_sqft','>=',7001);
-                            $q->where('from_size_in_sqft','<=',10000);
-                        }
-                    }
-                    if($size[0] >= 10000){
-                        return $q->where('to_size_in_sqft','>=',10000)->where('from_size_in_sqft','>=',10000);
-                    }
-                }else{
-                    if(!empty($size[1])){
-                        if(($size[0] >= 0 && $size[1] <= 2000)){
-                            $q->where('lot_size_in_ft2','>=',0);
-                            $q->where('size_in_ft2','<=',2000);
-                        }
-                        if(($size[0] >= 2001 && $size[1] <= 3000)){
-                            $q->where('lot_size_in_ft2','>=',2001);
-                            $q->where('size_in_ft2','<=',3000);
-                        }
-                        if(($size[0] >= 3001 && $size[1] <= 4000)){
-                            $q->where('lot_size_in_ft2','>=',3001);
-                            $q->where('size_in_ft2','<=',4000);
-                        }
-                        if(($size[0] >= 4001 && $size[1] <= 5000)){
-                            $q->where('lot_size_in_ft2','>=',4001);
-                            $q->where('size_in_ft2','<=',5000);
-                        }
-                        if(($size[0] >= 5001 && $size[1] <= 7000)){
-                            $q->where('lot_size_in_ft2','>=',5001);
-                            $q->where('size_in_ft2','<=',7000);
-                        }
-                        if(($size[0] >= 7001 && $size[1] <= 10000)){
-                            $q->where('lot_size_in_ft2','>=',7001);
-                            $q->where('size_in_ft2','<=',10000);
+                        if (($size[0] >= 7001 && $size[1] <= 10000)) {
+                            $q->where('to_size_in_sqft', '>=', 7001);
+                            $q->where('from_size_in_sqft', '<=', 10000);
                         }
                     }
-                    if($size[0] >= 10000){
-                        return $q->where('lot_size_in_ft2','>=',10000)->where('size_in_ft2','>=',10000);
+                    if ($size[0] >= 10000) {
+                        return $q->where('to_size_in_sqft', '>=', 10000)->where('from_size_in_sqft', '>=', 10000);
+                    }
+                } else {
+                    if (!empty($size[1])) {
+                        if (($size[0] >= 0 && $size[1] <= 2000)) {
+                            $q->where('lot_size_in_ft2', '>=', 0);
+                            $q->where('size_in_ft2', '<=', 2000);
+                        }
+                        if (($size[0] >= 2001 && $size[1] <= 3000)) {
+                            $q->where('lot_size_in_ft2', '>=', 2001);
+                            $q->where('size_in_ft2', '<=', 3000);
+                        }
+                        if (($size[0] >= 3001 && $size[1] <= 4000)) {
+                            $q->where('lot_size_in_ft2', '>=', 3001);
+                            $q->where('size_in_ft2', '<=', 4000);
+                        }
+                        if (($size[0] >= 4001 && $size[1] <= 5000)) {
+                            $q->where('lot_size_in_ft2', '>=', 4001);
+                            $q->where('size_in_ft2', '<=', 5000);
+                        }
+                        if (($size[0] >= 5001 && $size[1] <= 7000)) {
+                            $q->where('lot_size_in_ft2', '>=', 5001);
+                            $q->where('size_in_ft2', '<=', 7000);
+                        }
+                        if (($size[0] >= 7001 && $size[1] <= 10000)) {
+                            $q->where('lot_size_in_ft2', '>=', 7001);
+                            $q->where('size_in_ft2', '<=', 10000);
+                        }
+                    }
+                    if ($size[0] >= 10000) {
+                        return $q->where('lot_size_in_ft2', '>=', 10000)->where('size_in_ft2', '>=', 10000);
                     }
                     //return (request('size') != '10000') ? $q->where('size_in_ft2', '>=', $size[0])->where('size_in_ft2', '<=', $size[1]) : $q->where('size_in_ft2', '>=', request('size'));
-
+    
                 }
 
             })
@@ -537,21 +556,21 @@ class FrontController extends Controller
                         break;
                     case "commercial_residential":
 
-//                        $q->orderBy(function ($query) {
+                        //                        $q->orderBy(function ($query) {
 //                            $query->select('name')
 //                                ->from('categories')
 //                                ->whereColumn('categories.id', 'properties.category')
-                                $q->orderByRaw("CASE WHEN categories.name = 'Commercial' THEN 1 WHEN categories.name = 'Residential' THEN 2 ELSE 3 END");
-//                        });
+                        $q->orderByRaw("CASE WHEN categories.name = 'Commercial' THEN 1 WHEN categories.name = 'Residential' THEN 2 ELSE 3 END");
+                        //                        });
                         break;
                     case "residential_commercial":
 
-//                        $q->orderBy(function ($query) {
+                        //                        $q->orderBy(function ($query) {
 //                            $query->select('name')
 //                                ->from('categories')
 //                                ->whereColumn('categories.id', 'properties.category')
-                                $q->orderByRaw("CASE WHEN categories.name = 'Residential' THEN 1 WHEN categories.name = 'Commercial' THEN 2 ELSE 3 END");
-//                        });
+                        $q->orderByRaw("CASE WHEN categories.name = 'Residential' THEN 1 WHEN categories.name = 'Commercial' THEN 2 ELSE 3 END");
+                        //                        });
                         break;
                 }
             })
@@ -559,9 +578,10 @@ class FrontController extends Controller
             ->select('properties.*')
             ->get();
     }
-    public function aboutCityScape(){
+    public function aboutCityScape()
+    {
         $allBlog = Blog::all();
-        return view('frontend.pages.about-cityScape',compact('allBlog'));
+        return view('frontend.pages.about-cityScape', compact('allBlog'));
     }
 
 }
