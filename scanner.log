@@ -1,0 +1,1168 @@
+[2023-11-23 10:26:41] [INFO] Scan date: 2023-11-23 10:26:41
+[2023-11-23 10:26:41] [INFO] Scanning /home/tutunjirealty/new.tutunjirealty.com
+[2023-11-23 10:26:41] [INFO] Mapping and retrieving checksums, please wait
+[2023-11-23 10:26:41] [INFO] Verifying files checksum
+[2023-11-23 10:26:43] [INFO] Found 7122 files to check
+[2023-11-23 10:26:43] [INFO] Checking files
+[2023-11-23 10:26:43] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:26:43] [WARNING] Checksum: 24ba7867fa1801a23126b42301fa5d0c
+[2023-11-23 10:26:43] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/website-member/list-new-website-member.blade.php
+[2023-11-23 10:26:43] [DANGER] Evil code found: [!] Exploit (clever_include) [line 36] - LFI (Local File Inclusion), through a image inclusion, allow remote attackers to inject and execute arbitrary commands or code on the target machine => @include('flash-message') <table id="example1" class="table table-bordered table-striped"> <thead> <tr> <th>No</th> <th>Image</th> <th>Name</th> <th>Email</th> <th>Phone</th> <th>Date</th> 
+[2023-11-23 10:27:23] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/website-member/list-new-website-member.blade.php' skipped!
+[2023-11-23 10:27:24] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:27:24] [WARNING] Checksum: 44040e8ff2fc65dc0c4262352e1b3ffa
+[2023-11-23 10:27:24] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/pre-construct-property/edit-pre-construct-property.blade.php
+[2023-11-23 10:27:24] [DANGER] Evil code found: [!] Exploit (clever_include) [line 92] - LFI (Local File Inclusion), through a image inclusion, allow remote attackers to inject and execute arbitrary commands or code on the target machine => @include('flash-message') <!-- validation-error message --> @if($errors->any()) <div class="alert alert-danger"> <p><strong>Opps Something went wrong</strong></p> <ul id="error_list"> @foreach ($errors->all() as $error) 
+[2023-11-23 10:27:55] [INFO] Scan date: 2023-11-23 10:27:55
+[2023-11-23 10:27:55] [INFO] Scanning /home/tutunjirealty/new.tutunjirealty.com
+[2023-11-23 10:27:55] [INFO] Mapping and retrieving checksums, please wait
+[2023-11-23 10:27:55] [INFO] Verifying files checksum
+[2023-11-23 10:27:57] [INFO] Found 7122 files to check
+[2023-11-23 10:27:57] [INFO] Checking files
+[2023-11-23 10:27:58] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:27:58] [WARNING] Checksum: 24ba7867fa1801a23126b42301fa5d0c
+[2023-11-23 10:27:58] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/website-member/list-new-website-member.blade.php
+[2023-11-23 10:27:58] [DANGER] Evil code found: [!] Exploit (clever_include) [line 36] - LFI (Local File Inclusion), through a image inclusion, allow remote attackers to inject and execute arbitrary commands or code on the target machine => @include('flash-message') <table id="example1" class="table table-bordered table-striped"> <thead> <tr> <th>No</th> <th>Image</th> <th>Name</th> <th>Email</th> <th>Phone</th> <th>Date</th> 
+[2023-11-23 10:28:52] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/website-member/list-new-website-member.blade.php' skipped!
+[2023-11-23 10:28:52] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:28:52] [WARNING] Checksum: 44040e8ff2fc65dc0c4262352e1b3ffa
+[2023-11-23 10:28:52] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/pre-construct-property/edit-pre-construct-property.blade.php
+[2023-11-23 10:28:52] [DANGER] Evil code found: [!] Exploit (clever_include) [line 92] - LFI (Local File Inclusion), through a image inclusion, allow remote attackers to inject and execute arbitrary commands or code on the target machine => @include('flash-message') <!-- validation-error message --> @if($errors->any()) <div class="alert alert-danger"> <p><strong>Opps Something went wrong</strong></p> <ul id="error_list"> @foreach ($errors->all() as $error) 
+[2023-11-23 10:28:56] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/pre-construct-property/edit-pre-construct-property.blade.php' skipped!
+[2023-11-23 10:28:56] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:28:56] [WARNING] Checksum: 4a579667fc9d146cb7ee58e95e558738
+[2023-11-23 10:28:56] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/pre-construct-property/b_26-08_edit-pre-construct-property.blade.php
+[2023-11-23 10:28:56] [DANGER] Evil code found: [!] Exploit (clever_include) [line 92] - LFI (Local File Inclusion), through a image inclusion, allow remote attackers to inject and execute arbitrary commands or code on the target machine => @include('flash-message') <!-- validation-error message --> @if($errors->any()) <div class="alert alert-danger"> <p><strong>Opps Something went wrong</strong></p> <ul id="error_list"> @foreach ($errors->all() as $error) 
+[2023-11-23 10:28:57] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/pre-construct-property/b_26-08_edit-pre-construct-property.blade.php' skipped!
+[2023-11-23 10:28:58] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:28:58] [WARNING] Checksum: 418f4eaccce6f474080d639cadc2006d
+[2023-11-23 10:28:58] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/sale-property/edit-sale-property.blade.php
+[2023-11-23 10:28:58] [DANGER] Evil code found: [!] Exploit (clever_include) [line 58] - LFI (Local File Inclusion), through a image inclusion, allow remote attackers to inject and execute arbitrary commands or code on the target machine => @include('flash-message') @if($errors->any()) <div class="alert alert-danger"> <p><strong>Opps Something went wrong</strong></p> <ul id="error_list"> @foreach ($errors->all() as $error) <li>{{ $error }}</li> 
+[2023-11-23 10:28:59] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/sale-property/edit-sale-property.blade.php' skipped!
+[2023-11-23 10:28:59] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:28:59] [WARNING] Checksum: 5b5eac26829583b1aa4f2e2354e76491
+[2023-11-23 10:28:59] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/sale-property/b_26-08_edit-sale-property.blade.php
+[2023-11-23 10:28:59] [DANGER] Evil code found: [!] Exploit (clever_include) [line 58] - LFI (Local File Inclusion), through a image inclusion, allow remote attackers to inject and execute arbitrary commands or code on the target machine => @include('flash-message') @if($errors->any()) <div class="alert alert-danger"> <p><strong>Opps Something went wrong</strong></p> <ul id="error_list"> @foreach ($errors->all() as $error) <li>{{ $error }}</li> 
+[2023-11-23 10:29:00] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/sale-property/b_26-08_edit-sale-property.blade.php' skipped!
+[2023-11-23 10:29:06] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:06] [WARNING] Checksum: 8bdb62f02c239a38ec1f4fa4182141bb
+[2023-11-23 10:29:06] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/grammar/rebuildParsers.php
+[2023-11-23 10:29:06] [DANGER] Evil code found: [!] Function (shell_exec) - Potentially dangerous function `shell_exec` => shell_exec("$cmd 2>&1")); if ($output !== "")
+[2023-11-23 10:29:08] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/grammar/rebuildParsers.php' skipped!
+[2023-11-23 10:29:08] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:08] [WARNING] Checksum: d3689a3d7bf056c5c57e3046307d1249
+[2023-11-23 10:29:08] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Lexer/Emulative.php
+[2023-11-23 10:29:08] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($patchType === 'replace'); $this->tokens[$i] = $patchText; $patchIdx++; if ($patchIdx >= \count($this->patches)) { return; } list($patchPos, $patchType, $patchText) = $this->patches[$patchIdx]; } $pos += \strlen($token); continue; } $len = \strlen($token[1]); $posDelta = 0; while ($patchPos >= $pos && $patchPos < $pos + $len) { $patchTextLen = \strlen($patchText); if ($patchType === 'remove') { if ($patchPos === $pos && $patchTextLen === $len) { array_splice($this->tokens, $i, 1, []); $i-
+[2023-11-23 10:29:09] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Lexer/Emulative.php' skipped!
+[2023-11-23 10:29:09] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:09] [WARNING] Checksum: 6d646089592e5898469e7260c9b4c356
+[2023-11-23 10:29:09] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php
+[2023-11-23 10:29:09] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($res, "No number at number token position"); $match = $matches[0]; $matchLen = \strlen($match); if ($matchLen === $tokenLen) { $codeOffset += $tokenLen; continue; } $tokenKind = $this->resolveIntegerOrFloatToken($match); $newTokens = [[$tokenKind, $match, $token[2]]]; $numTokens = 1; $len = $tokenLen; while ($matchLen > $len) { $nextToken = $tokens[$i + $numTokens]; $nextTokenText = \is_array($nextToken) ? $nextToken[1] : $nextToken; $nextTokenLen = \strlen($nextTokenText); $numTokens++; 
+[2023-11-23 10:29:10] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php' skipped!
+[2023-11-23 10:29:10] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:10] [WARNING] Checksum: 51e3cc1eab43543e7e79f834e672ba76
+[2023-11-23 10:29:10] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php
+[2023-11-23 10:29:10] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval(' . $this->p($node->expr) . ')'; } protected function pExpr_Include(Expr\Include_ $node) { static $map = [ Expr\Include_::TYPE_INCLUDE => 'include', Expr\Include_::TYPE_INCLUDE_ONCE => 'include_once', Expr\Include_::TYPE_REQUIRE => 'require', Expr\Include_::TYPE_REQUIRE_ONCE => 'require_once', ]; return $map[$node->type] . ' ' . $this->p($node->expr); } protected function pExpr_List(Expr\List_ $node) { return 'list(' . $this->pCommaSeparated($node->items) . ')'; } protected function pExpr_E... [!] Function (assert) - Potentially dangerous function `assert` => assert(strlen($matches[0]) === 1); $hex = dechex(ord($matches[0]));; return '\\x' . str_pad($hex, 2, '0', \STR_PAD_LEFT); }, $escaped); } protected function containsEndLabel($string, $label, $atStart = true, $atEnd = true) { $start = $atStart ? '(?:^|[\r\n])' : '[\r\n]'; $end = $atEnd ? '(?:$|[;\r\n])' : '[;\r\n]'; return false !== strpos($string, $label) && preg_match('/' . $start . $label . $end . '/', $string); } protected function encapsedContainsEndLabel(array $parts, $label) { foreach ($pa
+[2023-11-23 10:29:11] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php' skipped!
+[2023-11-23 10:29:11] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:11] [WARNING] Checksum: 61d657be25c639434c11f94568e727a7
+[2023-11-23 10:29:11] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php
+[2023-11-23 10:29:11] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($result === 1); $label = $matches[1]; $result = preg_match('/\A[ \t]*/', $endToken, $matches); assert($result === 1); $indentation = $matches[0]; $attributes['kind'] = $kind; $attributes['docLabel'] = $label; $attributes['docIndentation'] = $indentation; $indentHasSpaces = false !== strpos($indentation, " "); $indentHasTabs = false !== strpos($indentation, "\t"); if ($indentHasSpaces && $indentHasTabs) { $this->emitError(new Error( 'Invalid indentation - tabs and spaces cannot be mixed', 
+[2023-11-23 10:29:12] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php' skipped!
+[2023-11-23 10:29:12] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:12] [WARNING] Checksum: d7d050190d4239b83131b57453b0cbaa
+[2023-11-23 10:29:12] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php
+[2023-11-23 10:29:12] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($this->indentLevel >= 4); $this->indentLevel -= 4; $this->nl = "\n" . str_repeat(' ', $this->indentLevel); } public function prettyPrint(array $stmts) : string { $this->resetState(); $this->preprocessNodes($stmts); return ltrim($this->handleMagicTokens($this->pStmts($stmts, false))); } public function prettyPrintExpr(Expr $node) : string { $this->resetState(); return $this->handleMagicTokens($this->p($node)); } public function prettyPrintFile(array $stmts) : string { if (!$stmts) { return
+[2023-11-23 10:29:13] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php' skipped!
+[2023-11-23 10:29:14] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:14] [WARNING] Checksum: a9ed9090ca9de7f6fcab08a0baa5dd61
+[2023-11-23 10:29:14] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/CallLike.php
+[2023-11-23 10:29:14] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(!$this->isFirstClassCallable()); return $this->getRawArgs()
+[2023-11-23 10:29:22] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/CallLike.php' skipped!
+[2023-11-23 10:29:22] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:22] [WARNING] Checksum: e6f70b473590708130f65a08061f7a4d
+[2023-11-23 10:29:22] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Internal/PrintableNewAnonClassNode.php
+[2023-11-23 10:29:22] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($class instanceof Node\Stmt\Class_); return new self( $class->attrGroups, $newNode->args, $class->extends, $class->implements, $class->stmts, $newNode->getAttributes() ); } public function getType() : string { return 'Expr_PrintableNewAnonClass'; } public function getSubNodeNames()
+[2023-11-23 10:29:23] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Internal/PrintableNewAnonClassNode.php' skipped!
+[2023-11-23 10:29:24] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:24] [WARNING] Checksum: 516743b04ae5e5b59a977025647b9113
+[2023-11-23 10:29:24] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/PHPStan/AbstractMacro.php
+[2023-11-23 10:29:24] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($spec[1] !== ''); if (\is_object($spec[0])) { return BetterReflectionClass::createFromInstance($spec[0]) ->getMethod($spec[1]); } return BetterReflectionClass::createFromName($spec[0]) ->getMethod($spec[1]); } if (\is_string($spec)) { return BetterReflectionFunction::createFromName($spec); } if ($spec instanceof Closure) { return BetterReflectionFunction::createFromClosure($spec); } throw new InvalidArgumentException('Could not create reflection from the spec given'); } public function ge
+[2023-11-23 10:29:26] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/PHPStan/AbstractMacro.php' skipped!
+[2023-11-23 10:29:26] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:26] [WARNING] Checksum: e3f75ede013280b9b2923e53b1fda952
+[2023-11-23 10:29:26] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/List/languages.php
+[2023-11-23 10:29:26] [DANGER] Evil code found: [!] Function (eval) [line 645] - Encoded Function `eval` => riny
+[2023-11-23 10:29:30] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/List/languages.php' skipped!
+[2023-11-23 10:29:30] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:30] [WARNING] Checksum: 26cad832cb60a26ae232a95899c98888
+[2023-11-23 10:29:30] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/Traits/Mixin.php
+[2023-11-23 10:29:30] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval(self::getAnonymousClassCodeForTrait($trait)); $className = \get_class($context); $baseClass = static::class; foreach (self::getMixableMethods($context) as $name) { $closureBase = Closure::fromCallable([$context, $name]); static::macro($name, function (...$parameters) use ($closureBase, $className, $baseClass) { $downContext = isset($this) ? ($this) : new $baseClass(); $context = isset($this) ? $this->cast($className) : new $className(); try { $closure = @$closureBase->bindTo($context); } ca
+[2023-11-23 10:29:31] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/Traits/Mixin.php' skipped!
+[2023-11-23 10:29:35] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:35] [WARNING] Checksum: 1afd52e334a190832a697d48d0d9bff7
+[2023-11-23 10:29:35] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Runner/DefaultTestResultCache.php
+[2023-11-23 10:29:35] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(isset($data['defects']) && is_array($data['defects'])); assert(isset($data['times']) && is_array($data['times'])); $this->defects = $data['defects']; $this->times = $data['times']; } public function persist(): void { if (!Filesystem::createDirectory(dirname($this->cacheFilename))) { throw new Exception( sprintf( 'Cannot create directory "%s" for result cache file', $this->cacheFilename, ), ); } file_put_contents( $this->cacheFilename, json_encode( [ 'version' => self::VERSION, 'defects' =
+[2023-11-23 10:29:36] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Runner/DefaultTestResultCache.php' skipped!
+[2023-11-23 10:29:36] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:36] [WARNING] Checksum: 74a0e07dcf7afb5d8f6e4974174ee3b1
+[2023-11-23 10:29:36] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Runner/Filter/Factory.php
+[2023-11-23 10:29:36] [DANGER] Evil code found: [!] Function (assert) [line 57] - Potentially dangerous function `assert` => assert($iterator instanceof FilterIterator)
+[2023-11-23 10:29:38] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Runner/Filter/Factory.php' skipped!
+[2023-11-23 10:29:38] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:38] [WARNING] Checksum: 4c44a8af20af14d159ccbd99f066075a
+[2023-11-23 10:29:38] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/TestRunner.php
+[2023-11-23 10:29:38] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($arguments['configurationObject'] instanceof Configuration); $cacheLocation = $arguments['configurationObject']->filename(); } else { $cacheLocation = $_SERVER['PHP_SELF']; } $arguments['cacheResultFile'] = null; $cacheResultFile = realpath($cacheLocation); if ($cacheResultFile !== false) { $arguments['cacheResultFile'] = dirname($cacheResultFile); } } $cache = new DefaultTestResultCache($arguments['cacheResultFile']); $this->addExtension(new ResultCacheExtension($cache)); } if ($argument
+[2023-11-23 10:29:38] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/TestRunner.php' skipped!
+[2023-11-23 10:29:39] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:39] [WARNING] Checksum: 59513370a49dbf96cbf93b393ca8e3fb
+[2023-11-23 10:29:39] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/Command.php
+[2023-11-23 10:29:39] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(isset($arguments) && $arguments instanceof Configuration); if ($arguments->hasGenerateConfiguration() && $arguments->generateConfiguration()) { $this->generateConfiguration(); } if ($arguments->hasAtLeastVersion()) { if (version_compare(Version::id(), $arguments->atLeastVersion(), '>=')) { exit(TestRunner::SUCCESS_EXIT); } exit(TestRunner::FAILURE_EXIT); } if ($arguments->hasVersion() && $arguments->version()) { $this->printVersionString(); exit(TestRunner::SUCCESS_EXIT); } if ($arguments
+[2023-11-23 10:29:40] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/Command.php' skipped!
+[2023-11-23 10:29:40] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:40] [WARNING] Checksum: 847b0f55c55e83df950518575db4779e
+[2023-11-23 10:29:40] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Loader.php
+[2023-11-23 10:29:40] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($log instanceof DOMElement); $type = (string) $log->getAttribute('type'); $target = (string) $log->getAttribute('target'); if (!$target) { continue; } $target = $this->toAbsolutePath($filename, $target); switch ($type) { case 'plain': $text = new Text( new File($target), ); break; case 'junit': $junit = new Junit( new File($target), ); break; case 'teamcity': $teamCity = new TeamCity( new File($target), ); break; case 'testdox-html': $testDoxHtml = new TestDoxHtml( new File($target), ); b
+[2023-11-23 10:29:41] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Loader.php' skipped!
+[2023-11-23 10:29:41] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:41] [WARNING] Checksum: ce4dede737ff831b23ad0d3e5fb1302f
+[2023-11-23 10:29:41] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistExcludesToCoverage.php
+[2023-11-23 10:29:41] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($excludeNode instanceof DOMElement); foreach (SnapshotNodeList::fromNodeList($excludeNode->childNodes) as $child) { if (!$child instanceof DOMElement || !in_array($child->nodeName, ['directory', 'file'], true)) { continue; } $targetExclude->appendChild($child); } if ($excludeNode->getElementsByTagName('*')->count() !== 0) { throw new MigrationException('Dangling child elements in exclude found.'); } $whitelist->removeChild($excludeNode)
+[2023-11-23 10:29:43] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistExcludesToCoverage.php' skipped!
+[2023-11-23 10:29:43] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:43] [WARNING] Checksum: f1ec56456f6f31fda405f8d606417b27
+[2023-11-23 10:29:43] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveLogTypes.php
+[2023-11-23 10:29:43] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($logNode instanceof DOMElement); switch ($logNode->getAttribute('type')) { case 'json': case 'tap': $logging->removeChild($logNode)
+[2023-11-23 10:29:44] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveLogTypes.php' skipped!
+[2023-11-23 10:29:44] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:44] [WARNING] Checksum: 8d559dea618995133e9942e4aa813f29
+[2023-11-23 10:29:44] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/Printer.php
+[2023-11-23 10:29:44] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(is_resource($this->stream)); fwrite($this->stream, $buffer); } else { if (PHP_SAPI !== 'cli' && PHP_SAPI !== 'phpdbg') { $buffer = htmlspecialchars($buffer, ENT_COMPAT | ENT_SUBSTITUTE); } print $buffer; } } public function flush(): void { if ($this->stream && $this->isPhpStream) { assert(is_resource($this->stream)); fclose($this->stream)
+[2023-11-23 10:29:46] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/Printer.php' skipped!
+[2023-11-23 10:29:46] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:46] [WARNING] Checksum: d3a3c5ab5918bf4b45e966ebfc4987a4
+[2023-11-23 10:29:46] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/PHP/DefaultPhpProcess.php
+[2023-11-23 10:29:46] [DANGER] Evil code found: [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($process); $this->cleanup(); return ['stdout' => $stdout, 'stderr' => $stderr]; } protected function process($pipe, string $job): void { fwrite($pipe, $job); } protected function cleanup(): void { if ($this->tempFile) { unlink($this->tempFile); } } protected function useTemporaryFile() [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open( $this->getCommand($settings, $this->tempFile), $pipeSpec, $pipes, null, $env, ); if (!is_resource($process)) { throw new Exception( 'Unable to spawn worker process', ); } if ($job) { $this->process($pipes[0], $job); } fclose($pipes[0]); $stderr = $stdout = ''; if ($this->timeout) { unset($pipes[0]); while (true) { $r = $pipes; $w = null; $e = null; $n = @stream_select($r, $w, $e, $this->timeout); if ($n === false) { break; } if ($n === 0) { proc_terminate($process, 9); throw new Excep... [!] Function (proc_terminate) - Potentially dangerous function `proc_terminate` => proc_terminate($process, 9); throw new Exception( sprintf( 'Job execution aborted after %d seconds', $this->timeout, ), ); } if ($n > 0) { foreach ($r as $pipe) { $pipeOffset = 0; foreach ($pipes as $i => $origPipe) { if ($pipe === $origPipe) { $pipeOffset = $i; break; } } if (!$pipeOffset) { break; } $line = fread($pipe, 8192); if ($line === '' || $line === false) { fclose($pipes[$pipeOffset]); unset($pipes[$pipeOffset]); } elseif ($pipeOffset === 1) { $stdout .= $line; } else { $stderr .= $lin
+[2023-11-23 10:29:47] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/PHP/DefaultPhpProcess.php' skipped!
+[2023-11-23 10:29:47] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:47] [WARNING] Checksum: 6092e3623666c690aa84012bad2d1e2d
+[2023-11-23 10:29:47] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php
+[2023-11-23 10:29:47] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($childResult instanceof TestResult); if ($result->getCollectCodeCoverageInformation()) { $result->getCodeCoverage()->merge( $childResult->getCodeCoverage(), ); } $time = $childResult->time(); $notImplemented = $childResult->notImplemented(); $risky = $childResult->risky(); $skipped = $childResult->skipped(); $errors = $childResult->errors(); $warnings = $childResult->warnings(); $failures = $childResult->failures(); if (!empty($notImplemented)) { $result->addError( $test, $this->getExcept
+[2023-11-23 10:29:48] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php' skipped!
+[2023-11-23 10:29:48] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:48] [WARNING] Checksum: 1b6266eeb0ca5fb9605c29773044c112
+[2023-11-23 10:29:48] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/Xml.php
+[2023-11-23 10:29:48] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(class_exists($className)); $variable = (new ReflectionClass($className))->newInstanceArgs($constructorArgs); } catch (ReflectionException $e) { throw new Exception( $e->getMessage(), $e->getCode(), $e, ); } } else { $variable = new $className; } break; case 'boolean': $variable = $element->textContent === 'true'; break; case 'integer': case 'double': case 'string': $variable = $element->textContent; settype($variable, $element->tagName); break; } return $variable; } private static functio
+[2023-11-23 10:29:49] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/Xml.php' skipped!
+[2023-11-23 10:29:49] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:49] [WARNING] Checksum: d2a796c293d17a4ba6fcdf5e2c2d486f
+[2023-11-23 10:29:49] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/MockClass.php
+[2023-11-23 10:29:49] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval($this->classCode); call_user_func( [ $this->mockName, '__phpunit_initConfigurableMethods', ], ...$this->configurableMethods, ); } return $this->mockName; } public function getClassCode()
+[2023-11-23 10:29:50] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/MockClass.php' skipped!
+[2023-11-23 10:29:51] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:51] [WARNING] Checksum: d28ec24f700d50c362bd1119c19e3618
+[2023-11-23 10:29:51] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/Generator.php
+[2023-11-23 10:29:51] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval($template->render()); return $this->getMock($intersectionName); } public function getMockForAbstractClass(string $originalClassName, array $arguments = [], string $mockClassName = '', bool $callOriginalConstructor = true, bool $callOriginalClone = true, bool $callAutoload = true, array $mockedMethods = null, bool $cloneArguments = true): MockObject { if (class_exists($originalClassName, $callAutoload) || interface_exists($originalClassName, $callAutoload)) { try { $reflector = new Reflectio
+[2023-11-23 10:29:52] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/Generator.php' skipped!
+[2023-11-23 10:29:52] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:52] [WARNING] Checksum: d129bc40b0686edf5447e1f2b265121a
+[2023-11-23 10:29:52] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/Matcher.php
+[2023-11-23 10:29:52] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($matcher instanceof self); if ($matcher->invocationRule->hasBeenInvoked()) { $this->afterMatchBuilderIsInvoked = true; } } $this->invocationRule->invoked($invocation); try { if ($this->parametersRule !== null) { $this->parametersRule->apply($invocation); } } catch (ExpectationFailedException $e) { throw new ExpectationFailedException( sprintf( "Expectation failed for %s when %s\n%s", $this->methodNameRule->toString(), $this->invocationRule->toString(), $e->getMessage(), ), $e->getComparis
+[2023-11-23 10:29:55] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/Matcher.php' skipped!
+[2023-11-23 10:29:55] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:55] [WARNING] Checksum: ca19dccc4f9c5556023dde774efef476
+[2023-11-23 10:29:55] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/MockTrait.php
+[2023-11-23 10:29:55] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval($this->classCode); } return $this->mockName; } public function getClassCode()
+[2023-11-23 10:29:57] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/MockTrait.php' skipped!
+[2023-11-23 10:29:57] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:57] [WARNING] Checksum: 7a8f6dfff7984123ab9cbe2fc32a16c8
+[2023-11-23 10:29:57] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestBuilder.php
+[2023-11-23 10:29:57] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($_test instanceof TestCase); $this->configureTestCase( $_test, $runTestInSeparateProcess, $preserveGlobalState, $runClassInSeparateProcess, $backupSettings, ); $dataProviderTestSuite->addTest($_test, $groups); } } return $dataProviderTestSuite; } private function configureTestCase( TestCase $test, bool $runTestInSeparateProcess, ?bool $preserveGlobalState, bool $runClassInSeparateProcess, array $backupSettings ): void { if ($runTestInSeparateProcess) { $test->setRunTestInSeparateProcess(t
+[2023-11-23 10:29:58] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestBuilder.php' skipped!
+[2023-11-23 10:29:58] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:58] [WARNING] Checksum: acbe10fdab89fddf683d256c8234bb53
+[2023-11-23 10:29:58] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestCase.php
+[2023-11-23 10:29:58] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval( $this->getMockObjectGenerator()->generateClassFromWsdl( $wsdlFile, $originalClassName, $methods, $options, ) ); } $mockObject = $this->getMockObjectGenerator()->getMock( $originalClassName, $methods, ['', $options], $mockClassName, $callOriginalConstructor, false, false, ); $this->registerMockObject($mockObject); return $mockObject; } protected function getMockForTrait(string $traitName, array $arguments = [], string $mockClassName = '', bool $callOriginalConstructor = true, bool $callOrig
+[2023-11-23 10:29:59] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestCase.php' skipped!
+[2023-11-23 10:29:59] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:29:59] [WARNING] Checksum: dfcedc2a1d1ad8e8cd1518bc4d5585c6
+[2023-11-23 10:29:59] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestSuiteIterator.php
+[2023-11-23 10:29:59] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($current instanceof TestSuite); return new self($current); } public function hasChildren(): bool { return $this->valid() && $this->current()
+[2023-11-23 10:30:00] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestSuiteIterator.php' skipped!
+[2023-11-23 10:30:00] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:00] [WARNING] Checksum: ae8b70528bc73b5235008b12f3b2e61f
+[2023-11-23 10:30:00] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/Assert.php
+[2023-11-23 10:30:00] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($expectedAttribute instanceof DOMAttr); if (!$actualAttribute) { static::fail( sprintf( '%s%sCould not find attribute "%s" on node "%s"', $message, !empty($message) ? "\n" : '', $expectedAttribute->name, $expectedElement->tagName, ), ); } } } Xml::removeCharacterDataNodes($expectedElement); Xml::removeCharacterDataNodes($actualElement); static::assertSame( $expectedElement->childNodes->length, $actualElement->childNodes->length, sprintf( '%s%sNumber of child nodes of "%s" differs', $messa
+[2023-11-23 10:30:01] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/Assert.php' skipped!
+[2023-11-23 10:30:01] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:01] [WARNING] Checksum: 772e4b88e03b6c25c831e37a0cd08fde
+[2023-11-23 10:30:01] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/IgnoredLinesFindingVisitor.php
+[2023-11-23 10:30:01] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($node->name !== null); $this->ignoredLines[] = $node->name->getStartLine(); } if (!$this->useAnnotationsForIgnoringCode) { return; } if ($node instanceof Interface_) { return; } $this->processDocComment($node); } public function ignoredLines(): array { return $this->ignoredLines; } private function processDocComment(Node $node): void { $docComment = $node->getDocComment(); if ($docComment === null) { return; } if (strpos($docComment->getText(), '@codeCoverageIgnore') !== false) { $this->i
+[2023-11-23 10:30:02] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/IgnoredLinesFindingVisitor.php' skipped!
+[2023-11-23 10:30:03] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:03] [WARNING] Checksum: 74252f9e6a56444b3bba35b5615f11d2
+[2023-11-23 10:30:03] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/ExecutableLinesFindingVisitor.php
+[2023-11-23 10:30:03] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert([] !== $node->types); $startLine = $node->types[0]->getStartLine(); end($node->types); $endLine = current($node->types)->getEndLine(); $this->setLineBranch( $startLine, $endLine, ++$this->nextBranch ); return; } if ($node instanceof Node\Expr\CallLike) { if (isset($this->executableLinesGroupedByBranch[$node->getStartLine()])) { $branch = $this->executableLinesGroupedByBranch[$node->getStartLine()]; } else { $branch = ++$this->nextBranch; } $this->setLineBranch($node->getStartLine(), $node
+[2023-11-23 10:30:04] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/ExecutableLinesFindingVisitor.php' skipped!
+[2023-11-23 10:30:04] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:04] [WARNING] Checksum: 955692d62f50540bad7490ea9a5de085
+[2023-11-23 10:30:04] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/CodeUnitFindingVisitor.php
+[2023-11-23 10:30:04] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($node instanceof ClassMethod || $node instanceof Function_); $nodes = $node->getStmts(); if ($nodes === null) { return 0; } $traverser = new NodeTraverser; $cyclomaticComplexityCalculatingVisitor = new CyclomaticComplexityCalculatingVisitor; $traverser->addVisitor($cyclomaticComplexityCalculatingVisitor); $traverser->traverse($nodes); return $cyclomaticComplexityCalculatingVisitor->cyclomaticComplexity(); } private function signature(Node $node): string { assert($node instanceof ClassMeth
+[2023-11-23 10:30:06] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/CodeUnitFindingVisitor.php' skipped!
+[2023-11-23 10:30:06] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:06] [WARNING] Checksum: 0491ebef14d757ca45a15e610a862fd1
+[2023-11-23 10:30:06] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/ParsingFileAnalyser.php
+[2023-11-23 10:30:06] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($nodes !== null); $traverser = new NodeTraverser; $codeUnitFindingVisitor = new CodeUnitFindingVisitor; $lineCountingVisitor = new LineCountingVisitor($linesOfCode); $ignoredLinesFindingVisitor = new IgnoredLinesFindingVisitor($this->useAnnotationsForIgnoringCode, $this->ignoreDeprecatedCode); $executableLinesFindingVisitor = new ExecutableLinesFindingVisitor($source); $traverser->addVisitor(new NameResolver); $traverser->addVisitor(new ParentConnectingVisitor); $traverser->addVisitor($co
+[2023-11-23 10:30:09] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/ParsingFileAnalyser.php' skipped!
+[2023-11-23 10:30:09] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:09] [WARNING] Checksum: 62b30894fae6dd40f23eb84b77de2a1d
+[2023-11-23 10:30:09] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/Filter.php
+[2023-11-23 10:30:09] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval()\'d code') !== false || strpos($filename, 'runtime-created function') !== false || strpos($filename, 'runkit created function') !== false || strpos($filename, 'assert code') !== false || strpos($filename, 'regexp code') !== false || strpos($filename, 'Standard input code') !== false) { $isFile = false; } else { $isFile = is_file($filename); } $this->isFileCache[$filename] = $isFile; return $isFile; } public function isExcluded(string $filename): bool { return !isset($this->files[$filename]
+[2023-11-23 10:30:10] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/Filter.php' skipped!
+[2023-11-23 10:30:10] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:10] [WARNING] Checksum: d2400fc3cc1671c8a59d8024326591e8
+[2023-11-23 10:30:10] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/cli-parser/src/Parser.php
+[2023-11-23 10:30:10] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(is_int($i)); next($argv); if ($arg === '') { continue; } if ($arg === '--') { $nonOptions = array_merge($nonOptions, array_slice($argv, $i + 1)); break; } if ($arg[0] !== '-' || (strlen($arg) > 1 && $arg[1] === '-' && !$longOptions)) { $nonOptions[] = $arg; continue; } if (strlen($arg) > 1 && $arg[1] === '-' && is_array($longOptions)) { $this->parseLongOption( substr($arg, 2), $longOptions, $options, $argv ); } else { $this->parseShortOption( substr($arg, 1), $shortOptions, $options, $arg
+[2023-11-23 10:30:11] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/cli-parser/src/Parser.php' skipped!
+[2023-11-23 10:30:11] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:11] [WARNING] Checksum: 83d54464115c0dfe192a45dc9b73cc39
+[2023-11-23 10:30:11] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/code-unit-reverse-lookup/src/Wizard.php
+[2023-11-23 10:30:11] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(is_array($classes)); assert(is_array($traits)); foreach (array_merge($classes, $traits) as $classOrTrait) { if (isset($this->processedClasses[$classOrTrait])) { continue; } $reflector = new ReflectionClass($classOrTrait); foreach ($reflector->getMethods() as $method) { $this->processFunctionOrMethod($method); } $this->processedClasses[$classOrTrait] = true; } } private function processFunctions(): void { foreach (get_defined_functions()['user'] as $function) { if (isset($this->processedFu
+[2023-11-23 10:30:13] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/code-unit-reverse-lookup/src/Wizard.php' skipped!
+[2023-11-23 10:30:13] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:13] [WARNING] Checksum: 2e3a4ba9250c72b132ffdfb247144de4
+[2023-11-23 10:30:13] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/environment/src/Console.php
+[2023-11-23 10:30:13] [DANGER] Evil code found: [!] Function (shell_exec) - Potentially dangerous function `shell_exec` => shell_exec('stty size') ?: '', $match) === 1) { if ((int) $match[1] > 0) { return (int) $match[1]; } } if (function_exists('shell_exec') && preg_match('#columns = (\d+);#', shell_exec('stty') ?: '', $match) === 1) { if ((int) $match[1] > 0) { return (int) $match[1]; } } return 80; } private function getNumberOfColumnsWindows(): int { $ansicon = getenv('ANSICON'); $columns = 80; if (is_string($ansicon) && preg_match('/^(\d+)x\d+ \(\d+x(\d+)\)$/', trim($ansicon), $matches)) { $columns = (int) $mat... [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($process); if (preg_match('/--------+\r?\n.+?(\d+)\r?\n.+?(\d+)\r?\n/', $info, $matches)) { $columns = (int) [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open( 'mode CON', [ 1 => ['pipe', 'w'], 2 => ['pipe', 'w'], ], $pipes, null, null, ['suppress_errors' => true] ); if (is_resource($process)) { $info = stream_get_contents($pipes[1]); fclose($pipes[1]); fclose($pipes[2]); proc_close($process); if (preg_match('/--------+\r?\n.+?(\d+)\r?\n.+?(\d+)\r?\n/', $info, $matches)) { $columns = (int)
+[2023-11-23 10:30:14] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/environment/src/Console.php' skipped!
+[2023-11-23 10:30:14] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:14] [WARNING] Checksum: 4df6c6b654f5ea5a666c5825c2696e15
+[2023-11-23 10:30:14] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/IntersectionType.php
+[2023-11-23 10:30:14] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($type instanceof ObjectType); $classQualifiedName = $type->className()->qualifiedName(); if (in_array($classQualifiedName, $names, true)) { throw new RuntimeException('An intersection type must not contain duplicate types')
+[2023-11-23 10:30:16] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/IntersectionType.php' skipped!
+[2023-11-23 10:30:16] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:16] [WARNING] Checksum: 038de888bdf40340886736223cbcd330
+[2023-11-23 10:30:16] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/IterableType.php
+[2023-11-23 10:30:16] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(class_exists($className)); try { return (new ReflectionClass($className))->isIterable(); } catch (ReflectionException $e) { throw new RuntimeException( $e->getMessage(), (int) $e->getCode(), $e ); } } return false; } public function name(): string { return 'iterable'; } public function allowsNull(): bool { return $this->allowsNull; } public function isIterable()
+[2023-11-23 10:30:17] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/IterableType.php' skipped!
+[2023-11-23 10:30:17] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:17] [WARNING] Checksum: 0ae113012f5fee16423b2ad52546a9d8
+[2023-11-23 10:30:17] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/CallableType.php
+[2023-11-23 10:30:17] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(class_exists($className)); try { $class = new ReflectionClass($className); } catch (ReflectionException $e) { throw new RuntimeException( $e->getMessage(), (int) $e->getCode(), $e ); } if ($class->hasMethod('__invoke')) { return true; } return false; } private function isFunction(SimpleType $type): bool { if (!is_string($type->value())) { return false; } return function_exists($type->value()); } private function isObjectCallback(SimpleType $type): bool { if (!is_array($type->value())) { r
+[2023-11-23 10:30:18] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/CallableType.php' skipped!
+[2023-11-23 10:30:18] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:18] [WARNING] Checksum: 32a3bca1c5553acd9d0aa0e047f29ee4
+[2023-11-23 10:30:18] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/ReflectionMapper.php
+[2023-11-23 10:30:18] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($name !== ''); if (!$parameter->hasType()) { $parameters[] = new Parameter($name, new UnknownType); continue; } $type = $parameter->getType(); if ($type instanceof ReflectionNamedType) { $parameters[] = new Parameter( $name, $this->mapNamedType($type, $functionOrMethod) ); continue; } if ($type instanceof ReflectionUnionType) { $parameters[] = new Parameter( $name, $this->mapUnionType($type, $functionOrMethod) ); continue; } if ($type instanceof ReflectionIntersectionType) { $parameters[]
+[2023-11-23 10:30:19] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/ReflectionMapper.php' skipped!
+[2023-11-23 10:30:19] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:19] [WARNING] Checksum: 46d3d1cedd6c74301e134923a6a13c77
+[2023-11-23 10:30:19] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/version/src/Version.php
+[2023-11-23 10:30:19] [DANGER] Evil code found: [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($process); if ($returnCode !== 0) [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open( 'git describe --tags', [ 1 => ['pipe', 'w'], 2 => ['pipe', 'w'], ], $pipes, $path ); if (!\is_resource($process)) { return false; } $result = \trim(\stream_get_contents($pipes[1])); \fclose($pipes[1]); \fclose($pipes[2]); $returnCode = \proc_close($process); if ($returnCode !== 0)
+[2023-11-23 10:30:20] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/version/src/Version.php' skipped!
+[2023-11-23 10:30:20] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:20] [WARNING] Checksum: 60338d03aa160f1c247feecacfe45495
+[2023-11-23 10:30:20] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/global-state/src/Snapshot.php
+[2023-11-23 10:30:20] [DANGER] Evil code found: [!] Signature (11413268) [line 280] - Malware Signature (hash: 11413268) => Exploit
+[2023-11-23 10:30:21] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/global-state/src/Snapshot.php' skipped!
+[2023-11-23 10:30:21] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:21] [WARNING] Checksum: 22ad63bf7b1c2e3a122887f88cca34c7
+[2023-11-23 10:30:21] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/complexity/src/Calculator.php
+[2023-11-23 10:30:21] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($nodes !== null); return $this->calculateForAbstractSyntaxTree($nodes); } catch (Error $error) { throw new RuntimeException( $error->getMessage(), (int) $error->getCode(), $error ); } } public function calculateForAbstractSyntaxTree(array $nodes): ComplexityCollection { $traverser = new NodeTraverser; $complexityCalculatingVisitor = new ComplexityCalculatingVisitor(true); $traverser->addVisitor(new NameResolver); $traverser->addVisitor(new ParentConnectingVisitor); $traverser->addVisitor(
+[2023-11-23 10:30:22] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/complexity/src/Calculator.php' skipped!
+[2023-11-23 10:30:22] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:22] [WARNING] Checksum: 88779444452c73e14ea86306af0090dc
+[2023-11-23 10:30:22] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/complexity/src/Visitor/ComplexityCalculatingVisitor.php
+[2023-11-23 10:30:22] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(is_array($statements)); $this->result[] = new Complexity( $name, $this->cyclomaticComplexity($statements) ); if ($this->shortCircuitTraversal) { return NodeTraverser::DONT_TRAVERSE_CHILDREN; } return null; } public function result(): ComplexityCollection { return ComplexityCollection::fromList(...$this->result); } private function cyclomaticComplexity(array $statements): int { $traverser = new NodeTraverser; $cyclomaticComplexityCalculatingVisitor = new CyclomaticComplexityCalculatingVisi
+[2023-11-23 10:30:24] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/complexity/src/Visitor/ComplexityCalculatingVisitor.php' skipped!
+[2023-11-23 10:30:24] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:24] [WARNING] Checksum: 2e06c28073fafd4f36ac1361f28b9fd1
+[2023-11-23 10:30:24] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/lines-of-code/src/Counter.php
+[2023-11-23 10:30:24] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($nodes !== null); return $this->countInAbstractSyntaxTree($linesOfCode, $nodes); } catch (Error $error) { throw new RuntimeException( $error->getMessage(), (int) $error->getCode(), $error ); } } public function countInAbstractSyntaxTree(int $linesOfCode, array $nodes): LinesOfCode { $traverser = new NodeTraverser; $visitor = new LineCountingVisitor($linesOfCode); $traverser->addVisitor($visitor); try { $traverser->traverse($nodes); } catch (Error $error) { throw new RuntimeException( $err
+[2023-11-23 10:30:25] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/lines-of-code/src/Counter.php' skipped!
+[2023-11-23 10:30:25] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:30:25] [WARNING] Checksum: 6abfb9a5e8a6678be545a7b22e814289
+[2023-11-23 10:30:25] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/BigInteger.php
+[2023-11-23 10:30:25] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($bin !== false); $hex = \bin2hex(~$bin); $hex = self::fromBase($hex, 16)->plus(1)->toBase(16); $hexLength = \strlen($hex); if ($hexLength < $baseHexLength) { $hex = \str_repeat('0', $baseHexLength - $hexLength) . $hex; } if ($hex[0] < '8') { $hex = 'FF' . $hex; } } else { if ($hex[0] >= '8') { $hex = '00' . $hex; } } } return \hex2bin($hex); } public function __toString() : string { return $this->value; } public function __serialize(): array { return ['value' => $this->value]; } public fu
+[2023-11-23 10:31:06] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/BigInteger.php' sanitized!
+[2023-11-23 10:31:06] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:06] [WARNING] Checksum: 83779833d93bfc22cbbe92a94063339b
+[2023-11-23 10:31:06] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/BigNumber.php
+[2023-11-23 10:31:06] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($denominator !== null); if ($sign !== null) { $numerator = $sign . $numerator; } $numerator = self::cleanUp($numerator); $denominator = self::cleanUp($denominator); if ($denominator === '0') { throw DivisionByZeroException::denominatorMustNotBeZero(); } return new BigRational( new BigInteger($numerator), new BigInteger($denominator), false ); } $point = $getMatch('point'); $integral = $getMatch('integral'); $fractional = $getMatch('fractional'); $exponent = $getMatch('exponent'); if ($int
+[2023-11-23 10:31:12] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/BigNumber.php' sanitized!
+[2023-11-23 10:31:12] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:12] [WARNING] Checksum: 7b9f7df92ba2cc41312044b8159b30f6
+[2023-11-23 10:31:12] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/Internal/Calculator/NativeCalculator.php
+[2023-11-23 10:31:12] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(is_int($q)); return [ (string) $q, (string) $r ]; } } [$aNeg, $bNeg, $aDig, $bDig] = $this->init($a, $b); [$q, $r] = $this->doDiv($aDig, $bDig); if ($aNeg !== $bNeg) { $q = $this->neg($q); } if ($aNeg) { $r = $this->neg($r); } return [$q, $r]; } public function pow(string $a, int $e) : string { if ($e === 0) { return '1'; } if ($e === 1) { return $a; } $odd = $e % 2; $e -= $odd; $aa = $this->mul($a, $a); $result = $this->pow($aa, $e / 2); if ($odd === 1) { $result = $this->mul($result, $a
+[2023-11-23 10:31:19] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/Internal/Calculator/NativeCalculator.php' sanitized!
+[2023-11-23 10:31:19] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:19] [WARNING] Checksum: 2201cf3bf3310517ef867e54c224beb4
+[2023-11-23 10:31:19] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/Internal/Calculator/BcMathCalculator.php
+[2023-11-23 10:31:19] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($r !== null); return [$q, $r]; } public function pow(string $a, int $e) : string { return \bcpow($a, (string) $e, 0); } public function modPow(string $base, string $exp, string $mod) : string { return \bcpowmod($base, $exp, $mod, 0); } public function sqrt(string $n) : string { return \bcsqrt($n, 0)
+[2023-11-23 10:31:23] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/Internal/Calculator/BcMathCalculator.php' sanitized!
+[2023-11-23 10:31:24] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:24] [WARNING] Checksum: 42e8f25289408c72abc29c7e4d3fcab0
+[2023-11-23 10:31:24] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php
+[2023-11-23 10:31:24] [DANGER] Evil code found: [!] Function (syslog) [line 66] - Potentially dangerous function `syslog` => syslog($this->logLevels[$record['level']], (string) $record['formatted'])
+[2023-11-23 10:31:30] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php' sanitized!
+[2023-11-23 10:31:30] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:30] [WARNING] Checksum: 48e46ff80eeba6f2afd653478c8bea88
+[2023-11-23 10:31:30] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/ProcessHandler.php
+[2023-11-23 10:31:30] [DANGER] Evil code found: [!] Function (proc_close) [line 187] - Potentially dangerous function `proc_close` => proc_close($this->process) [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open($this->command, static::DESCRIPTOR_SPEC, $this->pipes, $this->cwd); foreach ($this->pipes as $pipe) { stream_set_blocking($pipe, false); } } private function handleStartupErrors(): void { $selected = $this->selectErrorStream(); if (false === $selected) { throw new \UnexpectedValueException('Something went wrong while selecting a stream.'); } $errors = $this->readProcessErrors(); if (is_resource($this->process) === false || empty($errors) === false) { throw new \UnexpectedValueException
+[2023-11-23 10:31:33] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/ProcessHandler.php' sanitized!
+[2023-11-23 10:31:33] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:33] [WARNING] Checksum: bef6ef90c13c8cf8e4b4ffb246e6a307
+[2023-11-23 10:31:33] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/InsightOpsHandler.php
+[2023-11-23 10:31:33] [DANGER] Evil code found: [!] Signature (7186bb8d) [line 53] - Malware Signature (hash: 7186bb8d) => rapid7.com
+[2023-11-23 10:31:38] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/InsightOpsHandler.php' sanitized!
+[2023-11-23 10:31:39] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:39] [WARNING] Checksum: 2c53855933b6da19cd38ab29158f9eb6
+[2023-11-23 10:31:39] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/SignalHandler.php
+[2023-11-23 10:31:39] [DANGER] Evil code found: [!] Function (posix_kill) - Potentially dangerous function `posix_kill` => posix_kill(posix_getpid(), $signo); pcntl_signal_dispatch(); pcntl_sigprocmask(SIG_SETMASK, $oldset); pcntl_signal($signo, [$this, 'handleSignal'], $restartSyscalls); } } elseif (is_callable($this->previousSignalHandler[$signo])) { $this->previousSignalHandler[$signo]($signo, $siginfo)
+[2023-11-23 10:31:52] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/SignalHandler.php' sanitized!
+[2023-11-23 10:31:52] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:52] [WARNING] Checksum: 937bf1d7fef23a60d2a85eb3a01d64db
+[2023-11-23 10:31:52] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Inflectible.php
+[2023-11-23 10:31:52] [DANGER] Evil code found: [!] Function (eval) [line 30] - Encoded Function `eval` => lave
+[2023-11-23 10:31:58] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Inflectible.php' sanitized!
+[2023-11-23 10:31:58] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:31:58] [WARNING] Checksum: bb02ffa3d6dabc3c12565eca39000eb2
+[2023-11-23 10:31:58] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php
+[2023-11-23 10:31:58] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(is_array($data) || $data instanceof Traversable); foreach ($data as $key => $value) { if (is_numeric($key)) { $key = "unknownNode_". (string) $key; } $key = preg_replace('/[^a-z0-9\-\_\.\:]/i', '', $key); if (is_array($value)) { $child = $node->addChild($key); self::addDataToNode($child, $value); } else { $value = str_replace('&', '&amp;', print_r($value, true)); $node->addChild($key, $value); } } return $node; } private static function toXml($data) { assert(is_array($data) || $data insta
+[2023-11-23 10:32:02] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php' sanitized!
+[2023-11-23 10:32:03] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:03] [WARNING] Checksum: 480c44b826850a2e5ed68a4bb3e20767
+[2023-11-23 10:32:03] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nette/schema/src/Schema/Elements/Base.php
+[2023-11-23 10:32:03] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(callable $handler, ?string $description = null): self { $this->asserts[] = [$handler, $description]; return $this; } public function deprecated(string $message = 'The item %path% is deprecated.'): self { $this->deprecated = $message; return $this; } public function completeDefault(Context $context) { if ($this->required) { $context->addError( 'The mandatory item %path% is missing.', Nette\Schema\Message::MISSING_ITEM ); return null; } return $this->default; } public function doNormalize($
+[2023-11-23 10:32:06] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nette/schema/src/Schema/Elements/Base.php' sanitized!
+[2023-11-23 10:32:06] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:06] [WARNING] Checksum: b2c2dc2d2e1af17f0084a5e75d1708a7
+[2023-11-23 10:32:06] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nette/utils/src/Iterators/CachingIterator.php
+[2023-11-23 10:32:06] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($iterator instanceof \Iterator); } elseif ($iterator instanceof \Iterator) { } elseif ($iterator instanceof \Traversable) { $iterator = new \IteratorIterator($iterator); } else { throw new Nette\InvalidArgumentException(sprintf('Invalid argument passed to %s; array or Traversable expected, %s given.', self::class, get_debug_type($iterator))); } parent::__construct($iterator, 0); } public function isFirst(?int $gridWidth = null): bool { return $this->counter === 1 || ($gridWidth && $this->
+[2023-11-23 10:32:12] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nette/utils/src/Iterators/CachingIterator.php' sanitized!
+[2023-11-23 10:32:12] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:12] [WARNING] Checksum: f4afc363f52c962e5447e2c273cd4443
+[2023-11-23 10:32:12] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/nette/utils/src/Utils/Validators.php
+[2023-11-23 10:32:12] [DANGER] Evil code found: [!] Exploit (nano) [line 158] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $validators[$type]($value) [!] Exploit (nano) [line 177] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $counters[$type]($value) [!] Function (assert) - Potentially dangerous function `assert` => assert(mixed $value, string $expected, string $label = 'variable'): void { if (!static::is($value, $expected)) { $expected = str_replace(['|', ':'], [' or ', ' in range '], $expected); $translate = ['boolean' => 'bool', 'integer' => 'int', 'double' => 'float', 'NULL' => 'null']; $type = $translate[gettype($value)] ?? gettype($value); if (is_int($value) || is_float($value) || (is_string($value) && strlen($value) < 40)) { $type .= ' ' . var_export($value, true); } elseif (is_object($value)) { $typ
+[2023-11-23 10:32:17] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/nette/utils/src/Utils/Validators.php' sanitized!
+[2023-11-23 10:32:17] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:17] [WARNING] Checksum: 0f9aae61fbfb2ce43b183e834e1edd5f
+[2023-11-23 10:32:17] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/sail/src/Console/Concerns/InteractsWithDockerComposeServices.php
+[2023-11-23 10:32:17] [DANGER] Evil code found: [!] Exploit (php_uname) [line 94] - RCE (Remote Code Execution) allow remote attackers to execute arbitrary commands or code on the target machine => php_uname('m')
+[2023-11-23 10:32:21] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/sail/src/Console/Concerns/InteractsWithDockerComposeServices.php' sanitized!
+[2023-11-23 10:32:22] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:22] [WARNING] Checksum: fcdbbd139edc994ee0b8dc36ae8c689c
+[2023-11-23 10:32:22] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php
+[2023-11-23 10:32:22] [DANGER] Evil code found: [!] Function (exec) - Potentially dangerous function `exec` => exec($command, array $parameters = []) { if (count($parameters)) { $command .= ' '.$this->compileParameters($parameters); } $this->events[] = $event = new Event($this->eventMutex, $command, $this->timezone); return $event; } protected function compileParameters(array $parameters) { return collect($parameters)->map(function ($value, $key) { if (is_array($value)) { return $this->compileArrayInput($key, $value); } if (! is_numeric($value) && ! preg_match('/^(-.$|--.*)/i', $value)) { $value = Proces
+[2023-11-23 10:32:27] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php' sanitized!
+[2023-11-23 10:32:27] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:27] [WARNING] Checksum: 8dbdf553a2d73df0bc972a3901428f61
+[2023-11-23 10:32:27] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesInjections.php
+[2023-11-23 10:32:27] [DANGER] Evil code found: [!] Exploit (double_var2) [line 21] - Double var technique is usually used for the obfuscation of malicious code => ${$variable}
+[2023-11-23 10:32:31] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesInjections.php' sanitized!
+[2023-11-23 10:32:31] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:31] [WARNING] Checksum: 3e7c0460ea1f51f3e71856b7f108b92d
+[2023-11-23 10:32:31] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php
+[2023-11-23 10:32:31] [DANGER] Evil code found: [!] Exploit (nano) [line 967] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $callbacks[$index]($this)
+[2023-11-23 10:32:36] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php' sanitized!
+[2023-11-23 10:32:38] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:38] [WARNING] Checksum: 4423c9fe83dfb5dc6537a0932cdfefe0
+[2023-11-23 10:32:38] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Http/Client/Factory.php
+[2023-11-23 10:32:38] [DANGER] Evil code found: [!] Exploit (nano) - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $options['on_stats'](new TransferStats( $request->toPsrRequest()
+[2023-11-23 10:32:42] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Http/Client/Factory.php' sanitized!
+[2023-11-23 10:32:43] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:43] [WARNING] Checksum: fed52c31cee7454ed25980d162fb3e23
+[2023-11-23 10:32:43] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php
+[2023-11-23 10:32:43] [DANGER] Evil code found: [!] Function (exec) - Potentially dangerous function `exec` => exec("mklink /{$mode} ".escapeshellarg($link).' '.escapeshellarg($target)); } public function relativeLink($target, $link) { if (! class_exists(SymfonyFilesystem::class)) { throw new RuntimeException( 'To enable support for relative links, please install the symfony/filesystem package.' ); } $relativeTarget = (new SymfonyFilesystem)->makePathRelative($target, dirname($link)); $this->link($relativeTarget, $link); } public function name($path) { return pathinfo($path, PATHINFO_FILENAME); } public 
+[2023-11-23 10:32:48] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php' sanitized!
+[2023-11-23 10:32:48] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:48] [WARNING] Checksum: bcb9ddfd65e964c4a300eb1f2e0b23e1
+[2023-11-23 10:32:48] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Queue/Worker.php
+[2023-11-23 10:32:48] [DANGER] Evil code found: [!] Function (posix_kill) - Potentially dangerous function `posix_kill` => posix_kill(getmypid(), SIGKILL); } exit($status); } protected function maxAttemptsExceededException($job) { return new MaxAttemptsExceededException( $job->resolveName().' has been attempted too many times or run too long. The job may have previously timed out.' ); } public function sleep($seconds) { if ($seconds < 1) { usleep($seconds * 1000000); } else { sleep($seconds); } } public function setCache(CacheContract $cache) { $this->cache = $cache; return $this; } public function setName($name) { 
+[2023-11-23 10:32:52] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Queue/Worker.php' sanitized!
+[2023-11-23 10:32:53] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:53] [WARNING] Checksum: f51d314c92307ad9a6cd75ea4a67f7cf
+[2023-11-23 10:32:53] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php
+[2023-11-23 10:32:53] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval($script, $numberOfKeys, ...$arguments) { return $this->command('eval', [$script, $arguments, $numberOfKeys]); } public function subscribe($channels, Closure $callback) { $this->client->subscribe((array) $channels, function ($redis, $channel, $message) use ($callback) { $callback($message, $channel); }); } public function psubscribe($channels, Closure $callback) { $this->client->psubscribe((array) $channels, function ($redis, $pattern, $channel, $message) use ($callback) { $callback($message
+[2023-11-23 10:32:56] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php' sanitized!
+[2023-11-23 10:32:56] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:32:56] [WARNING] Checksum: 43ce2944c63e1e4dc6560ac03ddd5bf7
+[2023-11-23 10:32:56] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php
+[2023-11-23 10:32:56] [DANGER] Evil code found: [!] Function (eval) [line 193] - Encoded Function `eval` => LAVE
+[2023-11-23 10:32:59] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php' sanitized!
+[2023-11-23 10:33:01] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:01] [WARNING] Checksum: 52f8c24f5c72b5127641d48aceb80a08
+[2023-11-23 10:33:01] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php
+[2023-11-23 10:33:01] [DANGER] Evil code found: [!] Function (exec) - Potentially dangerous function `exec` => EXEC(@sql)'; return $sql; } public function compileDropPrimary(Blueprint $blueprint, Fluent $command) { $index = $this->wrap($command->index); return "alter table {$this->wrapTable($blueprint)} drop constraint {$index}"; } public function compileDropUnique(Blueprint $blueprint, Fluent $command) { $index = $this->wrap($command->index); return "drop index {$index} on {$this->wrapTable($blueprint)}"; } public function compileDropIndex(Blueprint $blueprint, Fluent $command) { $index = $this->wrap($c
+[2023-11-23 10:33:06] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php' sanitized!
+[2023-11-23 10:33:06] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:06] [WARNING] Checksum: 71ecbdf5fc8398a65aaa44136213a4e0
+[2023-11-23 10:33:06] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/PDO/SqlServerConnection.php
+[2023-11-23 10:33:06] [DANGER] Evil code found: [!] Function (exec) - Potentially dangerous function `exec` => exec(string $statement): int { return $this->connection->exec($statement); } public function lastInsertId($name = null) { if ($name === null) { return $this->connection->lastInsertId($name); } return $this->prepare('SELECT CONVERT(VARCHAR(MAX), current_value) FROM sys.sequences WHERE name = ?') ->execute([$name]) ->fetchOne(); } public function beginTransaction() { return $this->connection->beginTransaction(); } public function commit() { return $this->connection->commit(); } public function rol
+[2023-11-23 10:33:10] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/PDO/SqlServerConnection.php' sanitized!
+[2023-11-23 10:33:10] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:10] [WARNING] Checksum: 08a81d8d0d3081cbab8bcf3f0be92aad
+[2023-11-23 10:33:10] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/PDO/Connection.php
+[2023-11-23 10:33:10] [DANGER] Evil code found: [!] Function (exec) - Potentially dangerous function `exec` => exec(string $statement): int { try { $result = $this->connection->exec($statement); \assert($result !== false); return $result; } catch (PDOException $exception) { throw Exception::new($exception); } } public function prepare(string $sql): StatementInterface { try { return $this->createStatement( $this->connection->prepare($sql) ); } catch (PDOException $exception) { throw Exception::new($exception); } } public function query(string $sql): ResultInterface { try { $stmt = $this->connection->query... [!] Function (assert) - Potentially dangerous function `assert` => assert($result !== false); return $result; } catch (PDOException $exception) { throw Exception::new($exception); } } public function prepare(string $sql): StatementInterface { try { return $this->createStatement( $this->connection->prepare($sql) ); } catch (PDOException $exception) { throw Exception::new($exception); } } public function query(string $sql): ResultInterface { try { $stmt = $this->connection->query($sql); \assert($stmt instanceof PDOStatement); return new Result($stmt); } catch (PD
+[2023-11-23 10:33:14] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/PDO/Connection.php' sanitized!
+[2023-11-23 10:33:16] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:16] [WARNING] Checksum: 691da6f0529e81ceb547689c522c196c
+[2023-11-23 10:33:16] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Collections/LazyCollection.php
+[2023-11-23 10:33:16] [DANGER] Evil code found: [!] Function (passthru) - Potentially dangerous function `passthru` => passthru($method, array $params) { return new static(function () use ($method, $params) { yield from $this->collect()->$method(...$params); }); } protected function now() { return time()
+[2023-11-23 10:33:20] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Collections/LazyCollection.php' sanitized!
+[2023-11-23 10:33:21] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:21] [WARNING] Checksum: c31cc79b9037f67fb2501d30d16f32d1
+[2023-11-23 10:33:21] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/voku/portable-ascii/src/voku/helper/data/ascii_ord.php
+[2023-11-23 10:33:21] [DANGER] Evil code found: [!] Exploit (hex_char) [line 1] - Hex char is usually used for the obfuscation of malicious code => \x5F
+[2023-11-23 10:33:24] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/voku/portable-ascii/src/voku/helper/data/ascii_ord.php' sanitized!
+[2023-11-23 10:33:26] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:26] [WARNING] Checksum: 3a2c95a5301a09070ab02e1bd730c376
+[2023-11-23 10:33:26] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Container.php
+[2023-11-23 10:33:26] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval("class $internalMockName extends $mockName {" . 'public function __construct() {}' . '}'); } $instance = new $internalMockName(); } return $instance; } protected function checkForNamedMockClashes($config) { $name = $config->getName(); if (!$name) { return; } $hash = $config->getHash(); if (isset($this->_namedMocks[$name])) { if ($hash !== $this->_namedMocks[$name]) { throw new \Mockery\Exception( "The mock named '$name' has been already defined with a different mock configuration" ); } } $t
+[2023-11-23 10:33:29] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Container.php' sanitized!
+[2023-11-23 10:33:30] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:30] [WARNING] Checksum: 419d48a6144b32e14cb0f4acedf34652
+[2023-11-23 10:33:30] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Loader/EvalLoader.php
+[2023-11-23 10:33:30] [DANGER] Evil code found: [!] Signature (11413268) [line 24] - Malware Signature (hash: 11413268) => eval("?> [!] Function (eval) [line 24] - Potentially dangerous function `eval` => eval("?>" . $definition->getCode())
+[2023-11-23 10:33:34] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Loader/EvalLoader.php' sanitized!
+[2023-11-23 10:33:34] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:34] [WARNING] Checksum: 44022fb0ca17d6fcd80ab7150554bb5c
+[2023-11-23 10:33:34] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Expectation.php
+[2023-11-23 10:33:34] [DANGER] Evil code found: [!] Function (passthru) - Potentially dangerous function `passthru` => passthru() { if ($this->_mock instanceof Mock) { throw new Exception( 'Mock Objects not created from a loaded/existing class are ' . 'incapable of passing method calls through to a parent class' ); } $this->_passthru = true; return $this; } public function __clone() { $newValidators = array(); $countValidators = $this->_countValidators; foreach ($countValidators as $validator) { $newValidators[] = clone $validator; } $this->_countValidators = $newValidators; } public function getName() { return 
+[2023-11-23 10:33:38] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Expectation.php' sanitized!
+[2023-11-23 10:33:38] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:38] [WARNING] Checksum: 2af0c9f6f497fdd9e03249deb40c2a45
+[2023-11-23 10:33:38] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Generator/DefaultTimeGenerator.php
+[2023-11-23 10:33:38] [DANGER] Evil code found: [!] Exploit (concat_vars_array) - Concatenation of arrays technique is usually used for the obfuscation of malicious code => $timeBytes[4] . $timeBytes[5] . $timeBytes[6] . $timeBytes[7] . $timeBytes[2] . $timeBytes[3] . $timeBytes[0] . $timeBytes[1] . pack('n*', $clockSeq) . $node; }
+[2023-11-23 10:33:41] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Generator/DefaultTimeGenerator.php' sanitized!
+[2023-11-23 10:33:41] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:41] [WARNING] Checksum: 0e4e71d2588977197c17aef74befe10e
+[2023-11-23 10:33:41] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Lazy/LazyUuidFromString.php
+[2023-11-23 10:33:41] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($instance instanceof UuidV6); return $instance->toUuidV1(); } public function toUuidV6(): UuidV6 { $instance = ($this->unwrapped ?? $this->unwrap()); assert($instance instanceof UuidV6); return $instance; } private function unwrap(): UuidInterface { return $this->unwrapped = (new UuidFactory()) ->fromString($this->uuid)
+[2023-11-23 10:33:46] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Lazy/LazyUuidFromString.php' sanitized!
+[2023-11-23 10:33:46] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:46] [WARNING] Checksum: b393f9feb586ec011d73a3eb7ffc5670
+[2023-11-23 10:33:46] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Uuid.php
+[2023-11-23 10:33:46] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($uuid !== ''); return new LazyUuidFromString($uuid); } return self::getFactory()->fromString($uuid); } public static function fromDateTime( DateTimeInterface $dateTime, ?Hexadecimal $node = null, ?int $clockSeq = null ): UuidInterface { return self::getFactory()->fromDateTime($dateTime, $node, $clockSeq); } public static function fromHexadecimal(Hexadecimal $hex): UuidInterface { $factory = self::getFactory(); if (method_exists($factory, 'fromHexadecimal')) { return self::getFactory()->fr
+[2023-11-23 10:33:49] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Uuid.php' sanitized!
+[2023-11-23 10:33:49] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:49] [WARNING] Checksum: c7e5c4cc077560941163bd495be5adbf
+[2023-11-23 10:33:49] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Provider/Dce/SystemDceSecurityProvider.php
+[2023-11-23 10:33:49] [DANGER] Evil code found: [!] Function (shell_exec) - Potentially dangerous function `shell_exec` => shell_exec('id -u')), }; } private function getSystemGid(): string { if (!$this->hasShellExec()) { return ''; } return match ($this->getOs()) { 'WIN' => $this->getWindowsGid(), default => trim((string) shell_exec('id -g')), }; } private function hasShellExec(): bool { $disabledFunctions = strtolower((string) ini_get('disable_functions')); return !str_contains($disabledFunctions, 'shell_exec'); } private function getOs(): string { $phpOs = constant('PHP_OS'); return strtoupper(substr($phpOs, 0, 3
+[2023-11-23 10:33:53] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Provider/Dce/SystemDceSecurityProvider.php' sanitized!
+[2023-11-23 10:33:53] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:53] [WARNING] Checksum: 9a4299ef63cf088ab153d221a437890f
+[2023-11-23 10:33:53] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Provider/Node/SystemNodeProvider.php
+[2023-11-23 10:33:53] [DANGER] Evil code found: [!] Signature (085a0329) [line 48] - Malware Signature (hash: 085a0329) => ipconfig [!] Function (passthru) - Potentially dangerous function `passthru` => passthru('ipconfig /all 2>&1'); break; case 'DAR': passthru('ifconfig 2>&1'); break; case 'FRE': passthru('netstat -i -f link 2>&1'); break; case 'LIN': default: passthru('netstat -ie 2>&1'); break; } $ifconfig = (string) ob_get_clean(); if (preg_match_all(self::IFCONFIG_PATTERN, $ifconfig, $matches, PREG_PATTERN_ORDER)) { foreach ($matches[1] as $iface) { if ($iface !== '00:00:00:00:00:00' && $iface !== '00-00-00-00-00-00') { return $iface; } } } return ''; } protected function getSysfs(): stri
+[2023-11-23 10:33:57] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Provider/Node/SystemNodeProvider.php' sanitized!
+[2023-11-23 10:33:57] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:33:57] [WARNING] Checksum: a39b6fb9544574d06317cdb2b10f0ddf
+[2023-11-23 10:33:57] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Codec/GuidStringCodec.php
+[2023-11-23 10:33:57] [DANGER] Evil code found: [!] Exploit (concat_vars_array) - Concatenation of arrays technique is usually used for the obfuscation of malicious code => $bytes[3] . $bytes[2] . $bytes[1] . $bytes[0] . $bytes[5] . $bytes[4] . $bytes[7] . $bytes[6] . substr($bytes, 8); }
+[2023-11-23 10:34:20] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Codec/GuidStringCodec.php' sanitized!
+[2023-11-23 10:34:20] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:20] [WARNING] Checksum: 51a96018ebd56260ffd54380af11d92b
+[2023-11-23 10:34:20] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Codec/OrderedTimeCodec.php
+[2023-11-23 10:34:20] [DANGER] Evil code found: [!] Exploit (concat_vars_array) - Concatenation of arrays technique is usually used for the obfuscation of malicious code => $bytes[4] . $bytes[5] . $bytes[6] . $bytes[7] . $bytes[2] . $bytes[3] . $bytes[0] . $bytes[1] . substr($bytes, 8); $uuid = parent::decodeBytes($rearrangedBytes); if ( !($uuid->getFields() instanceof Rfc4122FieldsInterface) || $uuid->getFields()->getVersion() !== Uuid::UUID_TYPE_TIME ) { throw new UnsupportedOperationException( 'Attempting to decode a non-time-based UUID using OrderedTimeCodec' ); }
+[2023-11-23 10:34:24] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Codec/OrderedTimeCodec.php' sanitized!
+[2023-11-23 10:34:24] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:24] [WARNING] Checksum: 1b217633a82ef9a8218395e7ea4497b4
+[2023-11-23 10:34:24] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Type/Integer.php
+[2023-11-23 10:34:24] [DANGER] Evil code found: [!] Function (assert) [line 154] - Potentially dangerous function `assert` => assert(is_numeric($value))
+[2023-11-23 10:34:27] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Type/Integer.php' sanitized!
+[2023-11-23 10:34:27] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:27] [WARNING] Checksum: 37d1cf38606a7172726ddcf7c08ea3d5
+[2023-11-23 10:34:27] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/UuidFactory.php
+[2023-11-23 10:34:27] [DANGER] Evil code found: [!] Exploit (concat_vars_array) - Concatenation of arrays technique is usually used for the obfuscation of malicious code => $bytes[6] . $bytes[7] . $bytes[4] . $bytes[5] . $bytes[0] . $bytes[1] . $bytes[2] . $bytes[3]; $v6 = bin2hex($v6); $v6Bytes = hex2bin(substr($v6, 1, 12) . '0' . substr($v6, -3)); $v6Bytes .= substr($bytes, 8); return $this->uuidFromBytesAndVersion($v6Bytes, Uuid::UUID_TYPE_REORDERED_TIME); } [!] Function (assert) - Potentially dangerous function `assert` => assert($this->unixTimeGenerator instanceof UnixTimeGenerator); $bytes = $this->unixTimeGenerator->generate(null, null, $dateTime); return $this->uuidFromBytesAndVersion($bytes, Uuid::UUID_TYPE_UNIX_TIME); } public function uuid8(string $bytes): UuidInterface { return $this->uuidFromBytesAndVersion($bytes, Uuid::UUID_TYPE_CUSTOM); } public function uuid(string $bytes): UuidInterface { return $this->uuidBuilder->build($this->codec, $bytes); } private function uuidFromNsAndName( UuidInterface | str
+[2023-11-23 10:34:31] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/UuidFactory.php' sanitized!
+[2023-11-23 10:34:31] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:31] [WARNING] Checksum: 52dab9870674cf184980e2030e56aba5
+[2023-11-23 10:34:31] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/FeatureSet.php
+[2023-11-23 10:34:31] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($this->timeProvider !== null); $this->unixTimeGenerator = $this->buildUnixTimeGenerator(); } public function getBuilder(): UuidBuilderInterface { return $this->builder; } public function getCalculator(): CalculatorInterface { return $this->calculator; } public function getCodec(): CodecInterface { return $this->codec; } public function getDceSecurityGenerator(): DceSecurityGeneratorInterface { return $this->dceSecurityGenerator; } public function getNameGenerator(): NameGeneratorInterface
+[2023-11-23 10:34:35] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/FeatureSet.php' sanitized!
+[2023-11-23 10:34:36] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:36] [WARNING] Checksum: 191fe4e50374a843cc3655a25eea58ed
+[2023-11-23 10:34:36] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/collection/src/Tool/ValueToStringTrait.php
+[2023-11-23 10:34:36] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(is_object($value)); if (is_callable([$value, '__toString'])) { return (string) $value->__toString(); } if ($value instanceof DateTimeInterface) { return $value->format('c'); } return '(' . $value::class . ' Object)
+[2023-11-23 10:34:42] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/collection/src/Tool/ValueToStringTrait.php' sanitized!
+[2023-11-23 10:34:43] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:43] [WARNING] Checksum: 0a6866c0637a1abc0e492417eabb1d78
+[2023-11-23 10:34:43] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Core/Color.php
+[2023-11-23 10:34:43] [DANGER] Evil code found: [!] Function (eval) [line 40] - Encoded Function `eval` => Lave
+[2023-11-23 10:34:45] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Core/Color.php' sanitized!
+[2023-11-23 10:34:45] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:45] [WARNING] Checksum: a6b1f86b652ee037a00740920e7d8e24
+[2023-11-23 10:34:45] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/Color.php
+[2023-11-23 10:34:45] [DANGER] Evil code found: [!] Function (eval) [line 26] - Encoded Function `eval` => Lave
+[2023-11-23 10:34:49] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/Color.php' sanitized!
+[2023-11-23 10:34:49] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:49] [WARNING] Checksum: 71d607d80c192bab5c46f5b7b845964e
+[2023-11-23 10:34:49] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_CA/Text.php
+[2023-11-23 10:34:49] [DANGER] Evil code found: [!] Signature (11413268) [line 145] - Malware Signature (hash: 11413268) => exploit [!] Function (eval) [line 995] - Encoded Function `eval` => lave
+[2023-11-23 10:34:55] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_CA/Text.php' sanitized!
+[2023-11-23 10:34:55] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:34:55] [WARNING] Checksum: 86b07322c1650c4bc8c5454650e7042f
+[2023-11-23 10:34:55] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_VE/Person.php
+[2023-11-23 10:34:55] [DANGER] Evil code found: [!] Function (eval) [line 107] - Encoded Function `eval` => lave
+[2023-11-23 10:34:58] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_VE/Person.php' sanitized!
+[2023-11-23 10:35:00] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:00] [WARNING] Checksum: de30cf0d511ccbd5796502e836e8b8ed
+[2023-11-23 10:35:00] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php
+[2023-11-23 10:35:00] [DANGER] Evil code found: [!] Function (eval) [line 2664] - Encoded Function `eval` => lave
+[2023-11-23 10:35:10] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php' sanitized!
+[2023-11-23 10:35:11] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:11] [WARNING] Checksum: fbc6a9b38eb9f253c7c448d9c04a1db0
+[2023-11-23 10:35:11] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Color.php
+[2023-11-23 10:35:11] [DANGER] Evil code found: [!] Function (eval) [line 24] - Encoded Function `eval` => lave
+[2023-11-23 10:35:17] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Color.php' sanitized!
+[2023-11-23 10:35:17] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:17] [WARNING] Checksum: 9e2b6ff7374a06f79d05f549a86094ab
+[2023-11-23 10:35:17] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Company.php
+[2023-11-23 10:35:17] [DANGER] Evil code found: [!] Signature (11413268) [line 287] - Malware Signature (hash: 11413268) => Exploit [!] Function (eval) [line 290] - Encoded Function `eval` => lave
+[2023-11-23 10:35:20] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Company.php' sanitized!
+[2023-11-23 10:35:21] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:21] [WARNING] Checksum: 56c393334c657797d4d2466b4f31dedc
+[2023-11-23 10:35:21] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Text.php
+[2023-11-23 10:35:21] [DANGER] Evil code found: [!] Signature (11413268) [line 7994] - Malware Signature (hash: 11413268) => exploit [!] Function (eval) [line 1852] - Encoded Function `eval` => Lave [!] Function (eval) [line 14296] - Encoded Function `eval` => lave [!] Function (assert) [line 2932] - Encoded Function `assert` => tressa
+[2023-11-23 10:35:30] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Text.php' sanitized!
+[2023-11-23 10:35:30] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:30] [WARNING] Checksum: 7f9ebc40f42936a7da34107e667a5197
+[2023-11-23 10:35:30] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/it_IT/Company.php
+[2023-11-23 10:35:30] [DANGER] Evil code found: [!] Signature (11413268) [line 32] - Malware Signature (hash: 11413268) => exploit
+[2023-11-23 10:35:34] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/it_IT/Company.php' sanitized!
+[2023-11-23 10:35:34] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:34] [WARNING] Checksum: b6e5824b6c75d77c68bde17329250475
+[2023-11-23 10:35:34] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/Payment.php
+[2023-11-23 10:35:34] [DANGER] Evil code found: [!] Exploit (concat_vars_with_spaces) [line 178] - Concatenation of vars technique is usually used for the obfuscation of malicious code => $p1 . $separator . $p2 . $separator . $p3 . $separator 
+[2023-11-23 10:35:38] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/Payment.php' sanitized!
+[2023-11-23 10:35:39] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:39] [WARNING] Checksum: 8871ccdfc9e60f483189f22c9e238c7a
+[2023-11-23 10:35:39] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/tr_TR/Color.php
+[2023-11-23 10:35:39] [DANGER] Evil code found: [!] Function (eval) [line 34] - Encoded Function `eval` => Lave
+[2023-11-23 10:35:42] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/tr_TR/Color.php' sanitized!
+[2023-11-23 10:35:42] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:42] [WARNING] Checksum: 95d2496e429d5e92a010661a7184b22a
+[2023-11-23 10:35:42] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_US/Company.php
+[2023-11-23 10:35:42] [DANGER] Evil code found: [!] Signature (11413268) [line 27] - Malware Signature (hash: 11413268) => exploit
+[2023-11-23 10:35:45] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_US/Company.php' sanitized!
+[2023-11-23 10:35:45] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:45] [WARNING] Checksum: 451aa235834ddc1bdcf2981da4e679d2
+[2023-11-23 10:35:45] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_US/Person.php
+[2023-11-23 10:35:45] [DANGER] Evil code found: [!] Function (eval) [line 41] - Encoded Function `eval` => Lave [!] Function (assert) [line 77] - Encoded Function `assert` => Tressa
+[2023-11-23 10:35:48] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_US/Person.php' sanitized!
+[2023-11-23 10:35:49] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:49] [WARNING] Checksum: 279b5504b2067b1e19aa79ef41031c67
+[2023-11-23 10:35:49] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/me_ME/Person.php
+[2023-11-23 10:35:49] [DANGER] Evil code found: [!] Function (eval) [line 31] - Encoded Function `eval` => lave
+[2023-11-23 10:35:52] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/me_ME/Person.php' sanitized!
+[2023-11-23 10:35:53] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:53] [WARNING] Checksum: 08c70c9e1412d90809576be17a6e88ae
+[2023-11-23 10:35:53] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_IN/Person.php
+[2023-11-23 10:35:53] [DANGER] Evil code found: [!] Function (eval) [line 65] - Encoded Function `eval` => Lave
+[2023-11-23 10:35:56] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_IN/Person.php' sanitized!
+[2023-11-23 10:35:56] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:56] [WARNING] Checksum: f16732bf30e2d8ede4d1207e284a2fc9
+[2023-11-23 10:35:56] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/id_ID/Color.php
+[2023-11-23 10:35:56] [DANGER] Evil code found: [!] Function (eval) [line 29] - Encoded Function `eval` => Lave
+[2023-11-23 10:35:59] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/id_ID/Color.php' sanitized!
+[2023-11-23 10:35:59] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:35:59] [WARNING] Checksum: dad3dae495cfa753a24a0d72c1e9c776
+[2023-11-23 10:35:59] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Company.php
+[2023-11-23 10:35:59] [DANGER] Evil code found: [!] Signature (11413268) [line 34] - Malware Signature (hash: 11413268) => exploit
+[2023-11-23 10:36:02] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Company.php' sanitized!
+[2023-11-23 10:36:02] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:02] [WARNING] Checksum: e10dde9df7509bb5b864ef19983c34e9
+[2023-11-23 10:36:02] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Person.php
+[2023-11-23 10:36:02] [DANGER] Evil code found: [!] Function (eval) [line 95] - Encoded Function `eval` => lave
+[2023-11-23 10:36:05] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Person.php' sanitized!
+[2023-11-23 10:36:06] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:06] [WARNING] Checksum: d83ef083d095938e7689f82f64ff7f7b
+[2023-11-23 10:36:06] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Text.php
+[2023-11-23 10:36:06] [DANGER] Evil code found: [!] Function (eval) [line 227] - Encoded Function `eval` => lave
+[2023-11-23 10:36:10] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Text.php' sanitized!
+[2023-11-23 10:36:11] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:11] [WARNING] Checksum: 2daaaf3a73cd56f8a81d201caf17fb4d
+[2023-11-23 10:36:11] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_AR/Company.php
+[2023-11-23 10:36:11] [DANGER] Evil code found: [!] Signature (11413268) [line 29] - Malware Signature (hash: 11413268) => exploit
+[2023-11-23 10:36:14] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_AR/Company.php' sanitized!
+[2023-11-23 10:36:14] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:14] [WARNING] Checksum: f3ab2fdb406815c7630d92c0dd1ac39b
+[2023-11-23 10:36:14] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_AR/Person.php
+[2023-11-23 10:36:14] [DANGER] Evil code found: [!] Function (eval) [line 63] - Encoded Function `eval` => lave
+[2023-11-23 10:36:17] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_AR/Person.php' sanitized!
+[2023-11-23 10:36:17] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:17] [WARNING] Checksum: 5774a6eac07b07d7331629f1b37260b9
+[2023-11-23 10:36:17] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sv_SE/Address.php
+[2023-11-23 10:36:17] [DANGER] Evil code found: [!] Function (eval) [line 35] - Encoded Function `eval` => lave
+[2023-11-23 10:36:20] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sv_SE/Address.php' sanitized!
+[2023-11-23 10:36:20] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:20] [WARNING] Checksum: 04fa4bbaf7f6643f3b0fafa7b7ea474a
+[2023-11-23 10:36:20] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sv_SE/Municipality.php
+[2023-11-23 10:36:20] [DANGER] Evil code found: [!] Function (eval) [line 14] - Encoded Function `eval` => lave
+[2023-11-23 10:36:25] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sv_SE/Municipality.php' sanitized!
+[2023-11-23 10:36:25] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:25] [WARNING] Checksum: d7b81e735b40bc66efe326e9033d7ba7
+[2023-11-23 10:36:25] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sr_Latn_RS/Person.php
+[2023-11-23 10:36:25] [DANGER] Evil code found: [!] Function (eval) [line 79] - Encoded Function `eval` => lave
+[2023-11-23 10:36:28] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sr_Latn_RS/Person.php' sanitized!
+[2023-11-23 10:36:28] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:28] [WARNING] Checksum: 691aa8a7baf240e3260cdc93f1e19403
+[2023-11-23 10:36:28] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_NL/Color.php
+[2023-11-23 10:36:28] [DANGER] Evil code found: [!] Function (eval) [line 23] - Encoded Function `eval` => Lave
+[2023-11-23 10:36:33] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_NL/Color.php' sanitized!
+[2023-11-23 10:36:33] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:33] [WARNING] Checksum: 093b7e13579ca8ca0590db9b21365662
+[2023-11-23 10:36:33] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_NL/Company.php
+[2023-11-23 10:36:33] [DANGER] Evil code found: [!] Signature (11413268) [line 23] - Malware Signature (hash: 11413268) => exploit
+[2023-11-23 10:36:49] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_NL/Company.php' sanitized!
+[2023-11-23 10:36:50] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:36:50] [WARNING] Checksum: 7065653d39e188d9f9cc84fd0008af77
+[2023-11-23 10:36:50] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Person.php
+[2023-11-23 10:36:50] [DANGER] Evil code found: [!] Signature (301ca578) [line 195] - Malware Signature (hash: 301ca578) => Trojan [!] Function (eval) [line 197] - Encoded Function `eval` => lave
+[2023-11-23 10:37:05] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Person.php' sanitized!
+[2023-11-23 10:37:06] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:06] [WARNING] Checksum: 5bb4ba668a157caf9cf913aace577a64
+[2023-11-23 10:37:06] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Text.php
+[2023-11-23 10:37:06] [DANGER] Evil code found: [!] Function (eval) [line 1039] - Encoded Function `eval` => lave
+[2023-11-23 10:37:15] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Text.php' sanitized!
+[2023-11-23 10:37:15] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:15] [WARNING] Checksum: 101a37047c9f5879cfa195b5b94127c2
+[2023-11-23 10:37:15] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_PH/Address.php
+[2023-11-23 10:37:15] [DANGER] Evil code found: [!] Function (eval) [line 134] - Encoded Function `eval` => lave [!] Function (eval) [line 288] - Encoded Function `eval` => Lave
+[2023-11-23 10:37:18] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_PH/Address.php' sanitized!
+[2023-11-23 10:37:18] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:18] [WARNING] Checksum: 7cb1cd5a3d4b25a43faa8c84eeee3e81
+[2023-11-23 10:37:18] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sk_SK/Company.php
+[2023-11-23 10:37:18] [DANGER] Evil code found: [!] Signature (11413268) [line 27] - Malware Signature (hash: 11413268) => exploit
+[2023-11-23 10:37:21] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sk_SK/Company.php' sanitized!
+[2023-11-23 10:37:21] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:21] [WARNING] Checksum: 965dc0d6cb4a3dca892f26e1bb92933e
+[2023-11-23 10:37:21] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sk_SK/Address.php
+[2023-11-23 10:37:21] [DANGER] Evil code found: [!] Function (eval) [line 157] - Encoded Function `eval` => lave
+[2023-11-23 10:37:24] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sk_SK/Address.php' sanitized!
+[2023-11-23 10:37:25] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:25] [WARNING] Checksum: fe117fb8e7772836b9f5623f2f2c0eff
+[2023-11-23 10:37:25] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_PE/Company.php
+[2023-11-23 10:37:25] [DANGER] Evil code found: [!] Signature (11413268) [line 29] - Malware Signature (hash: 11413268) => exploit
+[2023-11-23 10:37:27] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_PE/Company.php' sanitized!
+[2023-11-23 10:37:29] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:29] [WARNING] Checksum: ac6aface546322f572a2789ab24309ad
+[2023-11-23 10:37:29] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Application.php
+[2023-11-23 10:37:29] [DANGER] Evil code found: [!] Function (shell_exec) - Potentially dangerous function `shell_exec` => shell_exec('stty -g'); foreach ([\SIGINT, \SIGTERM] as $signal) { $this->signalRegistry->register($signal, static function () use ($sttyMode) { shell_exec('stty '.$sttyMode); }); } } } if (null !== $this->dispatcher) { foreach ($this->signalsToDispatchEvent as $signal) { $event = new ConsoleSignalEvent($command, $input, $output, $signal); $this->signalRegistry->register($signal, function ($signal, $hasNext) use ($event) { $this->dispatcher->dispatch($event, ConsoleEvents::SIGNAL); if (!$hasNext)
+[2023-11-23 10:37:32] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Application.php' sanitized!
+[2023-11-23 10:37:32] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:32] [WARNING] Checksum: f41d068837d15fe100db8253141c2cde
+[2023-11-23 10:37:32] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Output/ConsoleOutput.php
+[2023-11-23 10:37:32] [DANGER] Evil code found: [!] Exploit (php_uname) [line 139] - RCE (Remote Code Execution) allow remote attackers to execute arbitrary commands or code on the target machine => php_uname('s')
+[2023-11-23 10:37:35] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Output/ConsoleOutput.php' sanitized!
+[2023-11-23 10:37:35] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:35] [WARNING] Checksum: c801f1b65098f4ad04c4afcb310214bd
+[2023-11-23 10:37:35] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Cursor.php
+[2023-11-23 10:37:35] [DANGER] Evil code found: [!] Function (shell_exec) - Potentially dangerous function `shell_exec` => shell_exec('stty -g'); shell_exec('stty -icanon -echo'); @fwrite($this->input, "\033[6n"); $code = trim(fread($this->input, 1024)); shell_exec(sprintf('stty %s', $sttyMode)); sscanf($code, "\033[%d;%dR", $row, $col) [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open('echo 1 >/dev/null', [['file', '/dev/tty', 'r'], ['file', '/dev/tty', 'w'], ['file', '/dev/tty', 'w']], $pipes); } if (!$isTtySupported) { return [1, 1]; } $sttyMode = shell_exec('stty -g'); shell_exec('stty -icanon -echo'); @fwrite($this->input, "\033[6n"); $code = trim(fread($this->input, 1024)); shell_exec(sprintf('stty %s', $sttyMode)); sscanf($code, "\033[%d;%dR", $row, $col)
+[2023-11-23 10:37:39] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Cursor.php' sanitized!
+[2023-11-23 10:37:39] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:39] [WARNING] Checksum: 6caeea1929065adcaefa712a16f76a27
+[2023-11-23 10:37:39] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Terminal.php
+[2023-11-23 10:37:39] [DANGER] Evil code found: [!] Function (shell_exec) - Potentially dangerous function `shell_exec` => shell_exec('stty 2> '.('\\' === \DIRECTORY_SEPARATOR ? 'NUL' : '/dev/null')); } private static function initDimensions() { if ('\\' === \DIRECTORY_SEPARATOR) { $ansicon = getenv('ANSICON'); if (false !== $ansicon && preg_match('/^(\d+)x(\d+)(?: \((\d+)x(\d+)\))?$/', trim($ansicon), $matches)) { self::$width = (int) $matches[1]; self::$height = isset($matches[4]) ? (int) $matches[4] : (int) $matches[2]; } elseif (!self::hasVt100Support() && self::hasSttyAvailable()) { self::initDimensionsUsingStt... [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($process); if ($cp) { sapi_windows_cp_set($cp) [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open($command, $descriptorspec, $pipes, null, null, ['suppress_errors' => true]); if (!\is_resource($process)) { return null; } $info = stream_get_contents($pipes[1]); fclose($pipes[1]); fclose($pipes[2]); proc_close($process); if ($cp) { sapi_windows_cp_set($cp)
+[2023-11-23 10:37:42] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Terminal.php' sanitized!
+[2023-11-23 10:37:42] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:42] [WARNING] Checksum: 2bcf082b9d550ae6ad288851af8fd26e
+[2023-11-23 10:37:42] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Helper/QuestionHelper.php
+[2023-11-23 10:37:42] [DANGER] Evil code found: [!] Function (shell_exec) - Potentially dangerous function `shell_exec` => shell_exec('stty -g'); $isStdin = 'php://stdin' === (stream_get_meta_data($inputStream)['uri'] ?? null); $r = [$inputStream]; $w = []; shell_exec('stty -icanon -echo'); $output->getFormatter()->setStyle('hl', new OutputFormatterStyle('black', 'white')); while (!feof($inputStream)) { while ($isStdin && 0 === @stream_select($r, $w, $w, 0, 100)) { $r = [$inputStream]; } $c = fread($inputStream, 1); if (false === $c || ('' === $ret && '' === $c && null === $question->getDefault())) { shell_exec('stt
+[2023-11-23 10:37:46] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Helper/QuestionHelper.php' sanitized!
+[2023-11-23 10:37:46] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:46] [WARNING] Checksum: a05fa1fdbe1fa2a106c14c7406d566b9
+[2023-11-23 10:37:46] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/process/PhpExecutableFinder.php
+[2023-11-23 10:37:46] [DANGER] Evil code found: [!] Function (exec) - Potentially dangerous function `exec` => exec($command.' '.escapeshellarg($php)), \PHP_EOL)) { if (!is_executable($php)) { return false; } } else { return false; } } if (@is_dir($php)) { return false; } return $php; } $args = $this->findArguments(); $args = $includeArgs && $args ? ' '.implode(' ', $args) : ''; if (\PHP_BINARY && \in_array(\PHP_SAPI, ['cli', 'cli-server', 'phpdbg'], true)) { return \PHP_BINARY.$args; } if ($php = getenv('PHP_PATH')) { if (!@is_executable($php) || @is_dir($php)) { return false; } return $php; } if ($php 
+[2023-11-23 10:37:49] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/process/PhpExecutableFinder.php' sanitized!
+[2023-11-23 10:37:49] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:49] [WARNING] Checksum: db7ef601a6a21fffb0beb05a80d41c00
+[2023-11-23 10:37:49] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/process/Process.php
+[2023-11-23 10:37:49] [DANGER] Evil code found: [!] Signature (a408f408) [line 172] - Malware Signature (hash: a408f408) => cmd.exe [!] Function (exec) - Potentially dangerous function `exec` => exec(sprintf('taskkill /F /T /PID %d 2>&1', $pid), $output, $exitCode); if ($exitCode && $this->isRunning()) { if ($throwException) { throw new RuntimeException(sprintf('Unable to kill the process (%s).', implode(' ', $output))); } return false; } } else { if (!$this->isSigchildEnabled()) { $ok = @proc_terminate($this->process, $signal); } elseif (\function_exists('posix_kill')) { $ok = @posix_kill($pid, $signal); } elseif ($ok = proc_open(sprintf('kill -%d %d', $signal, $pid), [2 => ['pipe', 'w... [!] Function (posix_kill) - Potentially dangerous function `posix_kill` => posix_kill($pid, $signal); } elseif ($ok = proc_open(sprintf('kill -%d %d', $signal, $pid), [2 => ['pipe', 'w']], $pipes)) { $ok = false === fgets($pipes[2]); } if (!$ok) { if ($throwException) { throw new RuntimeException(sprintf('Error while sending signal "%s".', $signal)); } return false; } } $this->latestSignal = $signal; $this->fallbackStatus['signaled'] = true; $this->fallbackStatus['exitcode'] = -1; $this->fallbackStatus['termsig'] = $this->latestSignal; return true; } private function p... [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($this->process); } $this->exitcode = $this->processInformation['exitcode']; $this->status = self::STATUS_TERMINATED; if (-1 === $this->exitcode) { if ($this->processInformation['signaled'] && 0 < $this->processInformation['termsig']) { $this->exitcode = 128 + $this->processInformation['termsig']; } elseif ($this->isSigchildEnabled()) { $this->processInformation['signaled'] = true; $this->processInformation['termsig'] = -1; } } $this->callback = null; return $this->exitcode; } private ... [!] Function (proc_get_status) - Potentially dangerous function `proc_get_status` => proc_get_status($this->process); $running = $this->processInformation['running']; $this->readPipes($running && $blocking, '\\' !== \DIRECTORY_SEPARATOR || !$running); if ($this->fallbackStatus && $this->isSigchildEnabled()) { $this->processInformation = $this->fallbackStatus + $this->processInformation; } if (!$running) { $this->close(); } } protected function isSigchildEnabled() { if (null !== self::$sigchild) { return self::$sigchild; } if (!\function_exists('phpinfo')) { return self::$sigchil... [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open($commandline, $descriptors, $this->processPipes->pipes, $this->cwd, $envPairs, $this->options); if (!\is_resource($this->process)) { throw new RuntimeException('Unable to launch a new process.'); } $this->status = self::STATUS_STARTED; if (isset($descriptors[3])) { $this->fallbackStatus['pid'] = (int) fgets($this->processPipes->pipes[3]); } if ($this->tty) { return; } $this->updateStatus(false); $this->checkTimeout(); } public function restart(callable $callback = null, array $env = []... [!] Function (proc_terminate) - Potentially dangerous function `proc_terminate` => proc_terminate($this->process, $signal); } elseif (\function_exists('posix_kill')) { $ok = @posix_kill($pid, $signal); } elseif ($ok = proc_open(sprintf('kill -%d %d', $signal, $pid), [2 => ['pipe', 'w']], $pipes)) { $ok = false === fgets($pipes[2]); } if (!$ok) { if ($throwException) { throw new RuntimeException(sprintf('Error while sending signal "%s".', $signal)); } return false; } } $this->latestSignal = $signal; $this->fallbackStatus['signaled'] = true; $this->fallbackStatus['exitcode'] = -
+[2023-11-23 10:37:53] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/process/Process.php' sanitized!
+[2023-11-23 10:37:54] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:54] [WARNING] Checksum: 62463989c1ea1842dec74a39e0ee54b4
+[2023-11-23 10:37:54] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/routing/Matcher/Dumper/CompiledUrlMatcherDumper.php
+[2023-11-23 10:37:54] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval('return '.$checkConditionCode.';'); } else { $compiledRoutes[4] = $forDump ? " null, // \$checkCondition\n" : null; } return $compiledRoutes; } private function generateCompiledRoutes(): string { [$matchHost, $staticRoutes, $regexpCode, $dynamicRoutes, $checkConditionCode] = $this->getCompiledRoutes(true); $code = self::export($matchHost).', // $matchHost'."\n"; $code .= '[ // $staticRoutes'."\n"; foreach ($staticRoutes as $path => $routes) { $code .= sprintf(" %s => [\n", self::expor
+[2023-11-23 10:37:57] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/routing/Matcher/Dumper/CompiledUrlMatcherDumper.php' sanitized!
+[2023-11-23 10:37:58] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:37:58] [WARNING] Checksum: ced15a41067ea4306331445ac44aa76e
+[2023-11-23 10:37:58] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-foundation/RedirectResponse.php
+[2023-11-23 10:37:58] [DANGER] Evil code found: [!] Signature (0f37c730) [line 96] - Malware Signature (hash: 0f37c730) => meta http-equiv="refresh" content="0;
+[2023-11-23 10:38:01] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-foundation/RedirectResponse.php' sanitized!
+[2023-11-23 10:38:05] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:05] [WARNING] Checksum: a498e1fc3d896c1bc90228007ae352b1
+[2023-11-23 10:38:05] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/Store.php
+[2023-11-23 10:38:05] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(HttpCache::BODY_EVAL_BOUNDARY_LENGTH === 24); if (48 > \strlen($content) || substr($content, -24) !== substr($content, 0, 24)) { return null; } } } return new Response($content, $status, $headers)
+[2023-11-23 10:38:08] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/Store.php' sanitized!
+[2023-11-23 10:38:08] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:08] [WARNING] Checksum: 6ceb59a78575e16e0b30d6b0e6e1eb63
+[2023-11-23 10:38:08] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/HttpCache.php
+[2023-11-23 10:38:08] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(self::BODY_EVAL_BOUNDARY_LENGTH === 24); ob_start(); $content = $response->getContent(); $boundary = substr($content, 0, 24); $j = strpos($content, $boundary, 24); echo substr($content, 24, $j - 24); $i = $j + 24; while (false !== $j = strpos($content, $boundary, $i)) { [$uri, $alt, $ignoreErrors, $part] = explode("\n", substr($content, $i, $j - $i), 4); $i = $j + 24; echo $this->surrogate->handle($this, $uri, $alt, $ignoreErrors); echo $part; } $response->setContent(ob_get_clean()); $res
+[2023-11-23 10:38:12] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/HttpCache.php' sanitized!
+[2023-11-23 10:38:12] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:12] [WARNING] Checksum: d3dff81eaf87ad55837dd9d810768d8d
+[2023-11-23 10:38:12] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/AbstractSurrogate.php
+[2023-11-23 10:38:12] [DANGER] Evil code found: [!] Function (assert) [line 143] - Potentially dangerous function `assert` => assert(HttpCache::BODY_EVAL_BOUNDARY_LENGTH === \strlen($boundary))
+[2023-11-23 10:38:15] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/AbstractSurrogate.php' sanitized!
+[2023-11-23 10:38:15] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:15] [WARNING] Checksum: fb12fded2fb9ca6f0e1bba937a9e54a3
+[2023-11-23 10:38:15] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/UriSigner.php
+[2023-11-23 10:38:15] [DANGER] Evil code found: [!] Exploit (concat_vars_with_spaces) [line 111] - Concatenation of vars technique is usually used for the obfuscation of malicious code => $scheme.$user.$pass.$host.$port.$path
+[2023-11-23 10:38:18] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/UriSigner.php' sanitized!
+[2023-11-23 10:38:18] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:18] [WARNING] Checksum: 53fab6b96b87d97eea876791882169cc
+[2023-11-23 10:38:18] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/polyfill-intl-normalizer/Normalizer.php
+[2023-11-23 10:38:18] [DANGER] Evil code found: [!] Exploit (hex_char) [line 40] - Hex char is usually used for the obfuscation of malicious code => \x5F
+[2023-11-23 10:38:21] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/polyfill-intl-normalizer/Normalizer.php' sanitized!
+[2023-11-23 10:38:21] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:21] [WARNING] Checksum: 5bcae2edb91b9a03b91bdc6694890ac0
+[2023-11-23 10:38:21] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Caster/RedisCaster.php
+[2023-11-23 10:38:21] [DANGER] Evil code found: [!] Function (eval) [line 46] - Encoded Function `eval` => LAVE
+[2023-11-23 10:38:26] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Caster/RedisCaster.php' sanitized!
+[2023-11-23 10:38:26] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:26] [WARNING] Checksum: 0de34e5d2234137a42dd847ded913195
+[2023-11-23 10:38:26] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Caster/ResourceCaster.php
+[2023-11-23 10:38:26] [DANGER] Evil code found: [!] Function (proc_get_status) - Potentially dangerous function `proc_get_status` => proc_get_status($process); } public static function castStream($stream, array $a, Stub $stub, bool $isNested) { $a = stream_get_meta_data($stream) + static::castStreamContext($stream, $a, $stub, $isNested); if ($a['uri'] ?? false) { $a['uri'] = new LinkStub($a['uri']); } return $a; } public static function castStreamContext($stream, array $a, Stub $stub, bool $isNested) { return @stream_context_get_params($stream) ?: $a; } public static function castGd($gd, array $a, Stub $stub, bool $isNested) 
+[2023-11-23 10:38:29] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Caster/ResourceCaster.php' sanitized!
+[2023-11-23 10:38:29] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:29] [WARNING] Checksum: e42bcc119c22f1a2e8bfe06948c03609
+[2023-11-23 10:38:29] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php
+[2023-11-23 10:38:29] [DANGER] Evil code found: [!] Function (exec) - Potentially dangerous function `exec` => exec(a.className)) { try { refStyle.innerHTML = 'pre.sf-dump .'+a[0]+'{background-color: #B729D9; color: #FFF !important; border-radius: 2px}'; } catch (e) { } } }); a('click', function (a, e, c) { if (/\bsf-dump-toggle\b/.test(a.className)) { e.preventDefault(); if (!toggle(a, isCtrlKey(e))) { var r = doc.getElementById(a.getAttribute('href').slice(1)), s = r.p
+[2023-11-23 10:38:32] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php' sanitized!
+[2023-11-23 10:38:33] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:33] [WARNING] Checksum: 170cb52b4f95a0e173a45c0bfb558ccc
+[2023-11-23 10:38:33] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/mime/CharacterStream.php
+[2023-11-23 10:38:33] [DANGER] Evil code found: [!] Exploit (hex_char) [line 35] - Hex char is usually used for the obfuscation of malicious code => \x5f
+[2023-11-23 10:38:35] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/mime/CharacterStream.php' sanitized!
+[2023-11-23 10:38:36] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:38:36] [WARNING] Checksum: 232458ca047dfe91d35e9c759f0f27df
+[2023-11-23 10:38:36] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php
+[2023-11-23 10:38:36] [DANGER] Evil code found: [!] Function (passthru) - Potentially dangerous function `passthru` => passthru('command -v file', $exitStatus); $binPath = trim(ob_get_clean()); return $supported = 0 === $exitStatus && '' !== $binPath; } public function guessMimeType(string $path): ?string { if (!is_file($path) || !is_readable($path)) { throw new InvalidArgumentException(sprintf('The "%s" file does not exist or is not readable.', $path)); } if (!$this->isGuesserSupported()) { throw new LogicException(sprintf('The "%s" guesser is not supported.', __CLASS__)); } ob_start(); passthru(sprintf($this->
+[2023-11-23 10:49:38] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php' sanitized!
+[2023-11-23 10:49:39] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:49:39] [WARNING] Checksum: 94e4c1de93fa0a0c5e9ca011734bc2dd
+[2023-11-23 10:49:39] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/string/LazyString.php
+[2023-11-23 10:49:39] [DANGER] Evil code found: [!] Exploit (nano) [line 38] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $callback[0]()
+[2023-11-23 10:49:43] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/string/LazyString.php' sanitized!
+[2023-11-23 10:49:43] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:49:43] [WARNING] Checksum: 412fa88125d3f18fa1d40ce1c2ac5db6
+[2023-11-23 10:49:43] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/string/AbstractUnicodeString.php
+[2023-11-23 10:49:43] [DANGER] Evil code found: [!] Exploit (hex_char) [line 37] - Hex char is usually used for the obfuscation of malicious code => \x5F [!] Signature (696317c4) [line 138] - Malware Signature (hash: 696317c4) => @preg_replace
+[2023-11-23 10:49:48] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/string/AbstractUnicodeString.php' sanitized!
+[2023-11-23 10:49:48] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:49:48] [WARNING] Checksum: 8aea36ab79fd5085f0b4006668878bca
+[2023-11-23 10:49:48] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/ErrorHandler.php
+[2023-11-23 10:49:48] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(): ', 10)) { $throw = 0; } if (!$type || (!$log && !$throw)) { return false; } $logMessage = $this->levels[$type].': '.$message; if (null !== self::$toStringException) { $errorAsException = self::$toStringException; self::$toStringException = null; } elseif (!$throw && !($type & $level)) { if (!isset(self::$silencedErrorCache[$id = $file.':'.$line])) { $lightTrace = $this->tracedErrors & $type ? $this->cleanTrace(debug_backtrace(\DEBUG_BACKTRACE_IGNORE_ARGS, 5), $type, $file, $line, false
+[2023-11-23 10:49:52] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/ErrorHandler.php' sanitized!
+[2023-11-23 10:49:52] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:49:52] [WARNING] Checksum: 1d00d1e66f23becabebfc6a8f10a9a96
+[2023-11-23 10:49:52] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/DebugClassLoader.php
+[2023-11-23 10:49:52] [DANGER] Evil code found: [!] Exploit (double_var2) [line 385] - Double var technique is usually used for the obfuscation of malicious code => ${$annotation} [!] Exploit (double_var2) [line 478] - Double var technique is usually used for the obfuscation of malicious code => ${$property} [!] Function (eval) - Potentially dangerous function `eval` => eval()\'d code' === substr($file, -17)) { $file = substr($file, 0, strrpos($file, '(', -17)); } if (isset($dirFiles[$file])) { return $real.$dirFiles[$file]; } $kFile = strtolower($file); if (!isset($dirFiles[$kFile])) { foreach (scandir($real, 2) as $f) { if ('.' !== $f[0]) { $dirFiles[$f] = $f; if ($f === $file) { $kFile = $k = $file; } elseif ($f !== $k = strtolower($f)) { $dirFiles[$k] = $f; } } } self::$darwinCache[$kDir][1] = $dirFiles; } return $real.$dirFiles[$kFile]; } private function 
+[2023-11-23 10:49:55] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/DebugClassLoader.php' sanitized!
+[2023-11-23 10:49:55] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:49:55] [WARNING] Checksum: e2810065a210fe5e04ca1f30e6d39916
+[2023-11-23 10:49:55] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/Resources/views/exception_full.html.php
+[2023-11-23 10:49:55] [DANGER] Evil code found: [!] Exploit (clever_include) [line 9] - LFI (Local File Inclusion), through a image inclusion, allow remote attackers to inject and execute arbitrary commands or code on the target machine => include('assets/images/favicon.png.base64')
+[2023-11-23 10:49:59] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/Resources/views/exception_full.html.php' sanitized!
+[2023-11-23 10:49:59] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:49:59] [WARNING] Checksum: bc0fbf98c162deeab16ff25307a269fa
+[2023-11-23 10:49:59] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/event-dispatcher/EventDispatcher.php
+[2023-11-23 10:49:59] [DANGER] Evil code found: [!] Exploit (nano) [line 92] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $listener[0]() [!] Exploit (nano) [line 99] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $v[0]()
+[2023-11-23 10:50:03] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/event-dispatcher/EventDispatcher.php' sanitized!
+[2023-11-23 10:50:03] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:50:03] [WARNING] Checksum: fc1839cd6bc742c8d3115238c6d78aab
+[2023-11-23 10:50:03] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/vlucas/phpdotenv/src/Validator.php
+[2023-11-23 10:50:03] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(callable $callback, string $message) { $failing = []; foreach ($this->variables as $variable) { if ($callback($this->repository->get($variable)) === false) { $failing[] = \sprintf('%s %s', $variable, $message); } } if (\count($failing) > 0) { throw new ValidationException(\sprintf( 'One or more environment variables failed assertions: %s.', \implode(', ', $failing) )); } return $this; } public function assertNullable(callable $callback, string $message) { return $this->assert( static func
+[2023-11-23 10:50:06] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/vlucas/phpdotenv/src/Validator.php' sanitized!
+[2023-11-23 10:50:07] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:50:07] [WARNING] Checksum: c3d45114676e2c1394a24cf1a2687352
+[2023-11-23 10:50:07] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/facade/ignition/src/SolutionProviders/MergeConflictSolutionProvider.php
+[2023-11-23 10:50:07] [DANGER] Evil code found: [!] Function (shell_exec) - Potentially dangerous function `shell_exec` => shell_exec("cd {$directory}; git branch | grep \\* | cut -d ' ' -f2"))."'"; if ($branch === "''") { $branch = 'current branch'; } return $branch; } protected function hasMergeConflictExceptionMessage(Throwable $throwable): bool { if (Str::startsWith($throwable->getMessage(), 'syntax error, unexpected \'<<\'')) { return true; } if (Str::startsWith($throwable->getMessage(), 'syntax error, unexpected token "<<"'))
+[2023-11-23 10:50:10] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/facade/ignition/src/SolutionProviders/MergeConflictSolutionProvider.php' sanitized!
+[2023-11-23 10:50:11] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:50:11] [WARNING] Checksum: 75d7f93ab276756c615f3f78e4df7912
+[2023-11-23 10:50:11] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php
+[2023-11-23 10:50:11] [DANGER] Evil code found: [!] Exploit (nano) [line 99] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $options['on_headers']($response)
+[2023-11-23 10:50:14] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php' sanitized!
+[2023-11-23 10:50:14] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:50:14] [WARNING] Checksum: 8dfc26a2a7423d942be2825f12745377
+[2023-11-23 10:50:14] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php
+[2023-11-23 10:50:14] [DANGER] Evil code found: [!] Exploit (nano) [line 129] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $options['on_headers']($response)
+[2023-11-23 10:50:17] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php' sanitized!
+[2023-11-23 10:50:17] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:50:17] [WARNING] Checksum: a2385da81be4a43093a1dd41d683afeb
+[2023-11-23 10:50:17] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/HandlerStack.php
+[2023-11-23 10:50:17] [DANGER] Evil code found: [!] Exploit (nano) [line 211] - Nano is a family of PHP webshells which are code golfed to be extremely stealthy and efficient => $fn[0]($prev)
+[2023-11-23 10:50:20] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/HandlerStack.php' sanitized!
+[2023-11-23 10:50:20] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:50:20] [WARNING] Checksum: 9cbf36289536dd9b3d75fddcacf48db9
+[2023-11-23 10:50:20] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsCallableTest.php
+[2023-11-23 10:50:20] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval('assertThat(function () {}, callableValue());'); } public function testEvaluatesToTrueIfArgumentImplementsInvoke() { if (!version_compare(PHP_VERSION, '5.3', '>=')) { $this->markTestSkipped('Magic method __invoke() requires php 5.3'); } assertThat($this, callableValue()); } public function testEvaluatesToFalseIfArgumentIsInvalidFunctionName() { if (function_exists('not_a_Hamcrest_function')) { $this->markTestSkipped('Function "not_a_Hamcrest_function" must not exist'); } assertThat('not_a_H
+[2023-11-23 10:50:23] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsCallableTest.php' sanitized!
+[2023-11-23 10:50:25] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:50:25] [WARNING] Checksum: dca8bf71398e1a49908f161ea953cded
+[2023-11-23 10:50:25] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/SmartPunct/ReplaceUnpairedQuotesListener.php
+[2023-11-23 10:50:25] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($quote instanceof Quote); $literal = $quote->getLiteral(); if ($literal === Quote::SINGLE_QUOTE) { $literal = Quote::SINGLE_QUOTE_CLOSER; } elseif ($literal === Quote::DOUBLE_QUOTE) { $literal = Quote::DOUBLE_QUOTE_OPENER; } $quote->replaceWith($new = new Text($literal)); AdjacentTextMerger::mergeWithDirectlyAdjacentNodes($new)
+[2023-11-23 10:51:39] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/SmartPunct/ReplaceUnpairedQuotesListener.php' sanitized!
+[2023-11-23 10:51:39] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:39] [WARNING] Checksum: be30f3788c4b95b8fbed6fd738560ca5
+[2023-11-23 10:51:39] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php
+[2023-11-23 10:51:39] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(\is_string($symbol)); return new HtmlElement('a', $attrs->export(), \htmlspecialchars($symbol), false); } public function getXmlTagName(Node $node): string { return 'heading_permalink'; } public function getXmlAttributes(Node $node): array { HeadingPermalink::assertInstanceOf($node); return [ 'slug' => $node->getSlug()
+[2023-11-23 10:51:41] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php' sanitized!
+[2023-11-23 10:51:41] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:41] [WARNING] Checksum: c33f4f9abbe649506118e44dfe92ed58
+[2023-11-23 10:51:41] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/Embed/EmbedExtension.php
+[2023-11-23 10:51:41] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($adapter instanceof EmbedAdapterInterface); $allowedDomains = $environment->getConfiguration()->get('embed.allowed_domains'); if ($allowedDomains !== []) { $adapter = new DomainFilteringAdapter($adapter, $allowedDomains); } $environment ->addBlockStartParser(new EmbedStartParser(), 300) ->addEventListener(DocumentParsedEvent::class, new EmbedProcessor($adapter, $environment->getConfiguration()->get('embed.fallback')), 1010) ->addRenderer(Embed::class, new EmbedRenderer())
+[2023-11-23 10:51:43] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/Embed/EmbedExtension.php' sanitized!
+[2023-11-23 10:51:44] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:44] [WARNING] Checksum: 40deabc418a85cdbdba183b874e883de
+[2023-11-23 10:51:44] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php
+[2023-11-23 10:51:44] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(\is_string($symbol)); return '&nbsp;' . new HtmlElement('a', $attrs->export(), \htmlspecialchars($symbol), true); } public function setConfiguration(ConfigurationInterface $configuration): void { $this->config = $configuration; } public function getXmlTagName(Node $node): string { return 'footnote_backref'; } public function getXmlAttributes(Node $node): array { FootnoteBackref::assertInstanceOf($node); return [ 'reference' => $node->getReference()->getLabel()
+[2023-11-23 10:51:45] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php' sanitized!
+[2023-11-23 10:51:46] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:46] [WARNING] Checksum: a3eb3d478ff9c0f80edea0af1ce6f0ed
+[2023-11-23 10:51:46] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Inline/CloseBracketParser.php
+[2023-11-23 10:51:46] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(\is_string($previousCharacter)); $title = ''; if (\preg_match(RegexHelper::REGEX_WHITESPACE_CHAR, $previousCharacter)) { $title = LinkParserHelper::parseLinkTitle($cursor) ?? ''; } $cursor->advanceToNextNonSpaceOrNewline(); if ($cursor->getCurrentCharacter() !== ')') { $cursor->restoreState($previousState); return null; } $cursor->advanceBy(1); return ['url' => $dest, 'title' => $title]; } private function tryParseReference(Cursor $cursor, ReferenceMapInterface $referenceMap, ?int $opener
+[2023-11-23 10:51:48] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Inline/CloseBracketParser.php' sanitized!
+[2023-11-23 10:51:48] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:48] [WARNING] Checksum: 613b3c1293a466d14b0910daa4ead97d
+[2023-11-23 10:51:48] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Block/HeadingStartParser.php
+[2023-11-23 10:51:48] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(\is_string($str)); $str = \preg_replace('/[ \t]+#+[ \t]*$/', '', $str); \assert(\is_string($str)); return new HeadingParser($level, $str); } private static function getSetextHeadingLevel(Cursor $cursor): int { $match = RegexHelper::matchFirst('/^(?:=+|-+)[ \t]*$/', $cursor->getRemainder()); if ($match === null)
+[2023-11-23 10:51:50] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Block/HeadingStartParser.php' sanitized!
+[2023-11-23 10:51:50] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:50] [WARNING] Checksum: e1add609b3dbd91a003e78a8ef101a54
+[2023-11-23 10:51:50] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Block/ListBlockStartParser.php
+[2023-11-23 10:51:50] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(\is_array($markers)); return $this->listMarkerRegex = '/^[' . \preg_quote(\implode('', $markers), '/')
+[2023-11-23 10:51:53] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Block/ListBlockStartParser.php' sanitized!
+[2023-11-23 10:51:54] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:54] [WARNING] Checksum: 549583c5f494cb10b7ada63de2c0a6d5
+[2023-11-23 10:51:54] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/DelimiterParser.php
+[2023-11-23 10:51:54] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($processor !== null); $charBefore = $cursor->peek(-1); if ($charBefore === null) { $charBefore = "\n"; } while ($cursor->peek($numDelims) === $character) { ++$numDelims; } if ($numDelims < $processor->getMinLength()) { return false; } $cursor->advanceBy($numDelims); $charAfter = $cursor->getCurrentCharacter(); if ($charAfter === null) { $charAfter = "\n"; } [$canOpen, $canClose] = self::determineCanOpenOrClose($charBefore, $charAfter, $character, $processor); $node = new Text(\str_repeat(
+[2023-11-23 10:51:56] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/DelimiterParser.php' sanitized!
+[2023-11-23 10:51:56] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:56] [WARNING] Checksum: 37ff851cef4257e4c13760819c643a7b
+[2023-11-23 10:51:56] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/DelimiterStack.php
+[2023-11-23 10:51:56] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($opener !== null); $openerNode = $opener->getInlineNode(); $closerNode = $closer->getInlineNode(); $opener->setLength($opener->getLength() - $useDelims); $closer->setLength($closer->getLength() - $useDelims); $openerNode->setLiteral(\substr($openerNode->getLiteral(), 0, -$useDelims)); $closerNode->setLiteral(\substr($closerNode->getLiteral(), 0, -$useDelims)); $this->removeDelimitersBetween($opener, $closer); AdjacentTextMerger::mergeTextNodesBetweenExclusive($openerNode, $closerNode); $d
+[2023-11-23 10:51:58] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/DelimiterStack.php' sanitized!
+[2023-11-23 10:51:58] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:51:58] [WARNING] Checksum: 38e30e56d6c5eeb7764db10cd76542c2
+[2023-11-23 10:51:58] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/Processor/StaggeredDelimiterProcessor.php
+[2023-11-23 10:51:58] [DANGER] Evil code found: [!] Function (assert) [line 107] - Potentially dangerous function `assert` => assert($first instanceof DelimiterProcessorInterface)
+[2023-11-23 10:52:00] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/Processor/StaggeredDelimiterProcessor.php' sanitized!
+[2023-11-23 10:52:00] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:00] [WARNING] Checksum: 68f90b6221485fca72c4be47e0aef663
+[2023-11-23 10:52:00] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Parser/MarkdownParser.php
+[2023-11-23 10:52:00] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($blockStartParser instanceof BlockStartParserInterface); if (($result = $blockStartParser->tryStart(clone $this->cursor, $matchedBlockParser)) !== null) { return $result; } } return null; } private function closeBlockParsers(int $count, int $endLineNumber): void { for ($i = 0; $i < $count; $i++) { $blockParser = $this->deactivateBlockParser(); $this->finalize($blockParser, $endLineNumber); if ($blockParser instanceof BlockContinueParserWithInlinesInterface) { $this->closedBlockParsers[] =
+[2023-11-23 10:52:02] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Parser/MarkdownParser.php' sanitized!
+[2023-11-23 10:52:02] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:02] [WARNING] Checksum: 82efea5833fd87211e19527c4f4891fd
+[2023-11-23 10:52:02] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Parser/InlineParserEngine.php
+[2023-11-23 10:52:02] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($parser instanceof InlineParserInterface); $regex = $parser->getMatchDefinition()->getRegex(); $this->parsers[] = [$parser, $regex, \strlen($regex) !== \mb_strlen($regex, 'UTF-8')]; } } public function parse(string $contents, AbstractBlock $block): void { $contents = \trim($contents); $cursor = new Cursor($contents); $inlineParserContext = new InlineParserContext($cursor, $block, $this->referenceMap); foreach ($this->matchParsers($contents) as $matchPosition => $parsers) { $currentPositio
+[2023-11-23 10:52:03] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Parser/InlineParserEngine.php' sanitized!
+[2023-11-23 10:52:03] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:03] [WARNING] Checksum: 95a1ec45c80599335e2e869bca074057
+[2023-11-23 10:52:03] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/GithubFlavoredMarkdownConverter.php
+[2023-11-23 10:52:03] [DANGER] Evil code found: [!] Function (assert) [line 41] - Potentially dangerous function `assert` => assert($this->environment instanceof Environment)
+[2023-11-23 10:52:05] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/GithubFlavoredMarkdownConverter.php' sanitized!
+[2023-11-23 10:52:05] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:05] [WARNING] Checksum: e7aa1871b23ef20d06681261d0f73369
+[2023-11-23 10:52:05] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Reference/ReferenceParser.php
+[2023-11-23 10:52:05] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($this->label !== null); $this->label .= $partialLabel; if ($cursor->isAtEnd()) { $this->label .= "\n"; return true; } if ($cursor->getCurrentCharacter() !== ']') { return false; } $cursor->advance(); if ($cursor->getCurrentCharacter() !== ':') { return false; } $cursor->advance(); if (\mb_strlen($this->label, 'UTF-8') > 999) { return false; } if (\trim($this->label) === '') { return false; } $cursor->advanceToNextNonSpaceOrTab(); $this->state = self::DESTINATION; return true; } private fu
+[2023-11-23 10:52:07] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Reference/ReferenceParser.php' sanitized!
+[2023-11-23 10:52:07] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:07] [WARNING] Checksum: f1cc84e91149f50be5f00181e562c706
+[2023-11-23 10:52:07] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Environment/Environment.php
+[2023-11-23 10:52:07] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($listenerData instanceof ListenerData); if (! \is_a($event, $listenerData->getEvent())) { continue; } yield function (object $event) use ($listenerData) { if (! $this->extensionsInitialized) { $this->initializeExtensions(); } return \call_user_func($listenerData->getListener(), $event); }; } } public function getInlineParsers(): iterable { if (! $this->extensionsInitialized) { $this->initializeExtensions(); } return $this->inlineParsers->getIterator(); } public function getSlugNormalizer(
+[2023-11-23 10:52:08] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Environment/Environment.php' sanitized!
+[2023-11-23 10:52:08] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:08] [WARNING] Checksum: 013ce100644452ce1c6422cc007de35e
+[2023-11-23 10:52:08] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Normalizer/TextNormalizer.php
+[2023-11-23 10:52:08] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(\is_string($text)); return \mb_convert_case($text, \MB_CASE_FOLD, 'UTF-8')
+[2023-11-23 10:52:11] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Normalizer/TextNormalizer.php' sanitized!
+[2023-11-23 10:52:11] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:11] [WARNING] Checksum: 03b371d4ab73382706f588ce2e3175d7
+[2023-11-23 10:52:11] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/CommonMarkConverter.php
+[2023-11-23 10:52:11] [DANGER] Evil code found: [!] Function (assert) [line 42] - Potentially dangerous function `assert` => assert($this->environment instanceof Environment)
+[2023-11-23 10:52:13] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/CommonMarkConverter.php' sanitized!
+[2023-11-23 10:52:13] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:13] [WARNING] Checksum: bd6a5592e03b270ff4109ad60ec70cf2
+[2023-11-23 10:52:13] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Input/MarkdownInput.php
+[2023-11-23 10:52:13] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($this->lines !== null); foreach ($this->lines as $i => $line) { yield $this->lineOffset + $i + 1 => $line; } } public function getLineCount(): int { $this->splitLinesIfNeeded(); \assert($this->lineCount !== null); return $this->lineCount; } private function splitLinesIfNeeded(): void { if ($this->lines !== null) { return; } $lines = \preg_split('/\r\n|\n|\r/', $this->content); if ($lines === false) { throw new UnexpectedEncodingException('Failed to split Markdown content by line'); } $thi
+[2023-11-23 10:52:15] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Input/MarkdownInput.php' sanitized!
+[2023-11-23 10:52:15] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:15] [WARNING] Checksum: d25dec907efe99349c860b93831df048
+[2023-11-23 10:52:15] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Renderer/HtmlRenderer.php
+[2023-11-23 10:52:15] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($renderer instanceof NodeRendererInterface); if (($result = $renderer->render($node, $this)) !== null) { return $result; } } throw new NoMatchingRendererException('Unable to find corresponding renderer for node type ' . \get_class($node)); } public function getBlockSeparator(): string { return $this->environment->getConfiguration()->get('renderer/block_separator'); } public function getInnerSeparator(): string { return $this->environment->getConfiguration()->get('renderer/inner_separator'
+[2023-11-23 10:52:17] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Renderer/HtmlRenderer.php' sanitized!
+[2023-11-23 10:52:17] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:17] [WARNING] Checksum: b7638aa849795dd4177e7f3df69a05f0
+[2023-11-23 10:52:17] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Util/SpecReader.php
+[2023-11-23 10:52:17] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert($data !== null); $data = \preg_replace('/<!-- END TESTS -->.*$/', '', $data); \assert($data !== null); \preg_match_all('/^`{32} (example ?\w*)\n([\s\S]*?)^\.\n([\s\S]*?)^`{32}$|^#{1,6} *(.*)$/m', $data, $matches, PREG_SET_ORDER); $currentSection = 'Example'; $exampleNumber = 0; foreach ($matches as $match) { if (isset($match[4])) { $currentSection = $match[4]; continue; } yield \trim($currentSection . ' #' . $exampleNumber) => [ 'input' => \str_replace('→', "\t", $match[2]), 'output' =>
+[2023-11-23 10:52:19] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Util/SpecReader.php' sanitized!
+[2023-11-23 10:52:19] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:19] [WARNING] Checksum: 9eb50525a305b75f5f05e693c99b6564
+[2023-11-23 10:52:19] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Util/RegexHelper.php
+[2023-11-23 10:52:19] [DANGER] Evil code found: [!] Function (assert) - Potentially dangerous function `assert` => assert(\is_string($escaped)); return \preg_replace_callback('/' . self::PARTIAL_ENTITY . '/i', static fn ($e) => Html5EntityDecoder::decode($e[0]), $escaped); } public static function getHtmlBlockOpenRegex(int $type): string { switch ($type) { case HtmlBlock::TYPE_1_CODE_CONTAINER: return '/^<(?:script|pre|textarea|style)(?:\s|>|$)/i'; case HtmlBlock::TYPE_2_COMMENT: return '/^<!--/'; case HtmlBlock::TYPE_3: return '/^<[?]/'; case HtmlBlock::TYPE_4: return '/^<![A-Z]/i'; case HtmlBlock::TYPE_5_C
+[2023-11-23 10:52:22] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Util/RegexHelper.php' sanitized!
+[2023-11-23 10:52:23] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:23] [WARNING] Checksum: bb2d41d52616f6c9362b111e0957eead
+[2023-11-23 10:52:23] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Exception/FatalErrorException.php
+[2023-11-23 10:52:23] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval()'d code", $lineno); parent::__construct($message, $code, $severity, $filename, $lineno, $previous); } public function getRawMessage()
+[2023-11-23 10:52:27] [DANGER] Option not found! Retry
+[2023-11-23 10:52:28] [DANGER] Option not found! Retry
+[2023-11-23 10:52:36] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Exception/FatalErrorException.php' sanitized!
+[2023-11-23 10:52:36] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:36] [WARNING] Checksum: 2d4daccd72302cde7d0c1d6c6b7a4b82
+[2023-11-23 10:52:36] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionLoopClosure.php
+[2023-11-23 10:52:36] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval($__psysh__->onExecute($__psysh__->flushCode() ?: ExecutionClosure::NOOP_INPUT)); } catch (\Throwable $_e) { if (\ob_get_level() > 0) { \ob_end_clean(); } throw $_e; } finally { \restore_error_handler(); } \ob_end_flush(); $__psysh__->setScopeVariables(\get_defined_vars()); $__psysh__->writeReturnValue($_); } catch (BreakException $_e) { $__psysh__->writeException($_e); return; } catch (ThrowUpException $_e) { $__psysh__->writeException($_e); throw $_e; } catch (\Throwable $_e) { $__psysh__-
+[2023-11-23 10:52:39] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionLoopClosure.php' sanitized!
+[2023-11-23 10:52:39] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:39] [WARNING] Checksum: 62bac25a22041c2a9af0efc4dd5287d9
+[2023-11-23 10:52:39] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionClosure.php
+[2023-11-23 10:52:39] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval($__psysh__->onExecute($__psysh__->flushCode() ?: self::NOOP_INPUT)); } catch (\Throwable $_e) { if (\ob_get_level() > 0) { \ob_end_clean(); } throw $_e; } finally { \restore_error_handler(); } \ob_end_flush(); $__psysh__->setScopeVariables(\get_defined_vars()); return $_; }); } protected function setClosure(Shell $shell, \Closure $closure) { $that = $shell->getBoundObject(); if (\is_object($that)) { $this->closure = $closure->bindTo($that, \get_class($that)); } else { $this->closure = $clos
+[2023-11-23 10:52:41] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionClosure.php' sanitized!
+[2023-11-23 10:52:41] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:41] [WARNING] Checksum: 364f765dcca63904f531a258fe11381d
+[2023-11-23 10:52:41] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Formatter/TraceFormatter.php
+[2023-11-23 10:52:41] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval()'d code"; } if ($filter !== null && !$filter->match(\sprintf('%s%s%s() at %s:%s', $class, $type, $function, $file, $line))) { continue; } $lines[] = \sprintf( ' <class>%s</class>%s%s() at <info>%s:%s</info>', OutputFormatter::escape($class), OutputFormatter::escape($type), OutputFormatter::escape($function), OutputFormatter::escape($file), OutputFormatter::escape($line) )
+[2023-11-23 10:52:43] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Formatter/TraceFormatter.php' sanitized!
+[2023-11-23 10:52:43] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:43] [WARNING] Checksum: f364275d60166a47f67df8b68fd1d488
+[2023-11-23 10:52:43] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Output/ProcOutputPager.php
+[2023-11-23 10:52:43] [DANGER] Evil code found: [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($this->proc); if ($exit !== 0) { throw new \RuntimeException('Error closing output stream'); } } $this->pipe = null; $this->proc = null; } private function getPipe() { if (!isset($this->pipe) || !isset($this->proc)) { $desc = [['pipe', 'r'], $this->stream, \fopen('php://stderr', 'w')]; $this->proc = \proc_open($this->cmd, $desc, $pipes); if (!\is_resource($this->proc)) { throw new \RuntimeException('Error opening output stream') [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open($this->cmd, $desc, $pipes); if (!\is_resource($this->proc)) { throw new \RuntimeException('Error opening output stream')
+[2023-11-23 10:52:46] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Output/ProcOutputPager.php' sanitized!
+[2023-11-23 10:52:46] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:46] [WARNING] Checksum: add4543cd78744e642887bd6329aeba0
+[2023-11-23 10:52:46] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionLoop/ProcessForker.php
+[2023-11-23 10:52:46] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval()'d code") !== false) { continue; } } try { @\serialize($value); $serializable[$key] = $value; } catch (\Throwable $e) { } } return @\serialize($serializable) [!] Function (posix_kill) - Potentially dangerous function `posix_kill` => posix_kill($this->savegame, \SIGKILL); \pcntl_signal_dispatch(); } } public function afterRun(Shell $shell) { if (isset($this->up)) { \fwrite($this->up, $this->serializeReturn($shell->getScopeVariables(false))); \fclose($this->up); \posix_kill(\posix_getpid(), \SIGKILL); } } private function createSavegame() { $this->savegame = \posix_getpid(); $pid = \pcntl_fork(); if ($pid < 0) { throw new \RuntimeException('Unable to create savegame fork'); } elseif ($pid > 0) { \pcntl_waitpid($pid, $status);... [!] Function (pcntl_fork) - Potentially dangerous function `pcntl_fork` => pcntl_fork(); if ($pid < 0) { throw new \RuntimeException('Unable to start execution loop'); } elseif ($pid > 0) { \fclose($up); $read = [$down]; $write = null; $except = null; do { $n = @\stream_select($read, $write, $except, null); if ($n === 0) { throw new \RuntimeException('Process timed out waiting for execution loop'); } if ($n === false) { $err = \error_get_last(); if (!isset($err['message']) || \stripos($err['message'], 'interrupted system call') === false) { $msg = $err['message'] ? \sp
+[2023-11-23 10:52:48] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionLoop/ProcessForker.php' sanitized!
+[2023-11-23 10:52:49] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:49] [WARNING] Checksum: 7aec0cd801f7dab73e9cb3da8f196261
+[2023-11-23 10:52:49] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Readline/Hoa/ConsoleProcessus.php
+[2023-11-23 10:52:49] [DANGER] Evil code found: [!] Function (shell_exec) [line 890] - Potentially dangerous function `shell_exec` => shell_exec($commandLine) ?? '') [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($this->getStream()); } public function run() { if (false === $this->isOpened()) { $this->open(); } else { $this->_close(); $this->_setStream($this->_open( $this->getStreamName(), $this->getStreamContext() )); } $this->getListener()->fire('start', new EventBucket()); $_read = []; $_write = []; $_except = []; foreach ($this->_pipes as $p => $pipe) { switch ($this->_descriptors[$p][1]) { case 'r': \stream_set_blocking($pipe, false); $_write[] = $pipe; break; case 'w': case 'a': \stream_s... [!] Function (proc_get_status) - Potentially dangerous function `proc_get_status` => proc_get_status($this->getStream()); } public function getExitCode(): int { $handle = $this->getStatus(); return $handle['exitcode']; } public function isSuccessful(): bool { return 0 === $this->getExitCode(); } public function terminate(int $signal = self::SIGTERM): bool { return \proc_terminate($this->getStream(), $signal); } protected function setCommand(string $command) { $old = $this->_command; $this->_command = \escapeshellcmd($command); return $old; } public function getCommand() { return... [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open( $streamName, $this->_descriptors, $this->_pipes, $this->getCwd(), $this->getEnvironment() ); if (false === $out) { throw new ConsoleException('Something wrong happen when running %s.', 1, $streamName); } return $out; } protected function _close(): bool { foreach ($this->_pipes as $pipe) { @\fclose($pipe); } return (bool) @\proc_close($this->getStream()); } public function run() { if (false === $this->isOpened()) { $this->open(); } else { $this->_close(); $this->_setStream($this->_open... [!] Function (proc_terminate) - Potentially dangerous function `proc_terminate` => proc_terminate($this->getStream(), $signal); } protected function setCommand(string $command) { $old = $this->_command; $this->_command = \escapeshellcmd($command); return $old; } public function getCommand() { return $this->_command; } protected function setOptions(array $options): array { foreach ($options as &$option) { $option = \escapeshellarg($option); } $old = $this->_options; $this->_options = $options; return $old; } public function getOptions(): array { return $this->_options; } public
+[2023-11-23 10:52:51] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Readline/Hoa/ConsoleProcessus.php' sanitized!
+[2023-11-23 10:52:52] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:52] [WARNING] Checksum: ab5034b8acc02c0ff21a50b9f62c0fb0
+[2023-11-23 10:52:52] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Shell.php
+[2023-11-23 10:52:52] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval()'d code", $message ); $message = \str_replace(" in eval()'d code", '', $message); $message = \trim($message); if (!empty($message) && !\in_array(\substr($message, -1), ['.', '?', '!', ':'])) { $message = "$message."; } $message = \str_replace(\getcwd().\DIRECTORY_SEPARATOR, '', $message); $severity = ($e instanceof \ErrorException) ? $this->getSeverity($e) : 'error'; return \sprintf('%s<%s> %s </%s> %s', $indent, $severity, $messageLabel, $severity, OutputFormatter::escape($message)); } pr
+[2023-11-23 10:52:55] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Shell.php' sanitized!
+[2023-11-23 10:52:55] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:55] [WARNING] Checksum: c2e73750ae2d897306b20b30c35bbf2a
+[2023-11-23 10:52:55] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Command/EditCommand.php
+[2023-11-23 10:52:55] [DANGER] Evil code found: [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($proc); $editedContent = @\file_get_contents($filePath); if ($shouldRemoveFile) { @\unlink($filePath); } if ($editedContent === false) { throw new \UnexpectedValueException("Reading {$filePath} returned false"); } return $editedContent; } public function setContext(Context $context) [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open("{$editor} {$escapedFilePath}", [\STDIN, \STDOUT, \STDERR], $pipes); \proc_close($proc); $editedContent = @\file_get_contents($filePath); if ($shouldRemoveFile) { @\unlink($filePath); } if ($editedContent === false) { throw new \UnexpectedValueException("Reading {$filePath} returned false"); } return $editedContent; } public function setContext(Context $context)
+[2023-11-23 10:52:58] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Command/EditCommand.php' sanitized!
+[2023-11-23 10:52:58] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:52:58] [WARNING] Checksum: e372d47d412aff50ab38853577b98674
+[2023-11-23 10:52:58] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Command/ReflectingCommand.php
+[2023-11-23 10:52:58] [DANGER] Evil code found: [!] Function (eval) - Potentially dangerous function `eval` => eval()'d code", 1); } if (\substr($name, 0, 1) === '\\') { return $name; } if (self::couldBeClassName($name)) { try { $name = $this->resolveCode($name.'::class'); } catch (RuntimeException $e) { } } if ($namespace = $shell->getNamespace()) { $fullName = $namespace.'\\'.$name; if (\class_exists($fullName) || \interface_exists($fullName) || ($includeFunctions && \function_exists($fullName))) { return $fullName; } } return $name; } protected function couldBeClassName(string $name): bool { return \p
+[2023-11-23 10:53:01] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Command/ReflectingCommand.php' sanitized!
+[2023-11-23 10:53:02] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:53:02] [WARNING] Checksum: f79aa479f5f195757ab4e3825e8fbd44
+[2023-11-23 10:53:02] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php
+[2023-11-23 10:53:02] [DANGER] Evil code found: [!] Exploit (hex_char) [line 52] - Hex char is usually used for the obfuscation of malicious code => \x5f
+[2023-11-23 10:53:04] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php' sanitized!
+[2023-11-23 10:53:04] [DANGER] PROBABLE MALWARE FOUND!
+[2023-11-23 10:53:04] [WARNING] Checksum: 6624722a2ed092a844caface177743c5
+[2023-11-23 10:53:04] [WARNING] File path: /home/tutunjirealty/new.tutunjirealty.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php
+[2023-11-23 10:53:04] [DANGER] Evil code found: [!] Function (proc_close) - Potentially dangerous function `proc_close` => proc_close($this->stream); break; case self::TYPE_SOCKET: default: fclose($this->stream); break; } } $this->stream = null; $this->out = null; $this->in = null; } public function setWriteTranslations(array $replacements) { foreach ($this->translations as $search => $replace) { if (!isset($replacements[$search])) { $this->removeFilter($search); unset($this->translations[$search]); } } foreach ($replacements as $search => $replace) { if (!isset($this->translations[$search])) { $this->addFilter( $th... [!] Function (proc_open) - Potentially dangerous function `proc_open` => proc_open($command, $descriptorSpec, $pipes); stream_set_blocking($pipes[2], 0); if ($err = stream_get_contents($pipes[2])) { throw new Swift_TransportException('Process could not be started ['.$err.']'); } $this->in = &$pipes[0]; $this->out = &$pipes[1]; } private function getReadConnectionDescription() { switch ($this->params['type']) { case self::TYPE_PROCESS: return 'Process '.$this->params['command']; break; case self::TYPE_SOCKET: default: $host = $this->params['host']; if (!empty($this->p
+[2023-11-23 10:53:06] [SUCCESS] File '/home/tutunjirealty/new.tutunjirealty.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php' sanitized!
+[2023-11-23 10:53:08] [SUCCESS] Scan finished!
+[2023-11-23 10:53:08] [INFO] Files scanned: 7122
+[2023-11-23 10:53:08] [INFO] Files edited: 0
+[2023-11-23 10:53:08] [INFO] Files quarantined: 0
+[2023-11-23 10:53:08] [INFO] Files whitelisted: 0
+[2023-11-23 10:53:08] [INFO] Files ignored: 53
+[2023-11-23 10:53:08] [INFO] Malware detected: 189
+[2023-11-23 10:53:08] [INFO] Malware removed: 137
+[2023-11-23 10:53:08] [DANGER] Files removed:
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/BigInteger.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/BigNumber.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/Internal/Calculator/NativeCalculator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/brick/math/src/Internal/Calculator/BcMathCalculator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/SyslogHandler.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/ProcessHandler.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/Handler/InsightOpsHandler.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/monolog/monolog/src/Monolog/SignalHandler.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/doctrine/inflector/lib/Doctrine/Inflector/Rules/English/Inflectible.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nette/schema/src/Schema/Elements/Base.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nette/utils/src/Iterators/CachingIterator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nette/utils/src/Utils/Validators.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/sail/src/Console/Concerns/InteractsWithDockerComposeServices.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/View/Compilers/Concerns/CompilesInjections.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Http/Client/Factory.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Queue/Worker.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Redis/Connectors/PhpRedisConnector.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/Schema/Grammars/SqlServerGrammar.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/PDO/SqlServerConnection.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Database/PDO/Connection.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/laravel/framework/src/Illuminate/Collections/LazyCollection.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/voku/portable-ascii/src/voku/helper/data/ascii_ord.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Container.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Loader/EvalLoader.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/mockery/mockery/library/Mockery/Expectation.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Generator/DefaultTimeGenerator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Lazy/LazyUuidFromString.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Uuid.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Provider/Dce/SystemDceSecurityProvider.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Provider/Node/SystemNodeProvider.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Codec/GuidStringCodec.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Codec/OrderedTimeCodec.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Type/Integer.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/UuidFactory.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/FeatureSet.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/collection/src/Tool/ValueToStringTrait.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Core/Color.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/Color.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_CA/Text.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_VE/Person.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_BE/Text.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Color.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Company.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/fr_FR/Text.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/it_IT/Company.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/Payment.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/tr_TR/Color.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_US/Company.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_US/Person.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/me_ME/Person.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_IN/Person.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/id_ID/Color.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Company.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Person.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_ES/Text.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_AR/Company.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_AR/Person.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sv_SE/Address.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sv_SE/Municipality.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sr_Latn_RS/Person.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_NL/Color.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/nl_NL/Company.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Person.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/cs_CZ/Text.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/en_PH/Address.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sk_SK/Company.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/sk_SK/Address.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/fakerphp/faker/src/Faker/Provider/es_PE/Company.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Application.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Output/ConsoleOutput.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Cursor.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Terminal.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/console/Helper/QuestionHelper.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/process/PhpExecutableFinder.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/process/Process.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/routing/Matcher/Dumper/CompiledUrlMatcherDumper.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-foundation/RedirectResponse.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/Store.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/HttpCache.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/HttpCache/AbstractSurrogate.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/http-kernel/UriSigner.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/polyfill-intl-normalizer/Normalizer.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Caster/RedisCaster.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Caster/ResourceCaster.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/mime/CharacterStream.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/mime/FileBinaryMimeTypeGuesser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/string/LazyString.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/string/AbstractUnicodeString.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/ErrorHandler.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/DebugClassLoader.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/error-handler/Resources/views/exception_full.html.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/symfony/event-dispatcher/EventDispatcher.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/vlucas/phpdotenv/src/Validator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/facade/ignition/src/SolutionProviders/MergeConflictSolutionProvider.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/Handler/MockHandler.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/Handler/StreamHandler.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/guzzlehttp/guzzle/src/HandlerStack.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/hamcrest/hamcrest-php/tests/Hamcrest/Type/IsCallableTest.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/SmartPunct/ReplaceUnpairedQuotesListener.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/HeadingPermalink/HeadingPermalinkRenderer.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/Embed/EmbedExtension.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/Footnote/Renderer/FootnoteBackrefRenderer.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Inline/CloseBracketParser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Block/HeadingStartParser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Extension/CommonMark/Parser/Block/ListBlockStartParser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/DelimiterParser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/DelimiterStack.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Delimiter/Processor/StaggeredDelimiterProcessor.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Parser/MarkdownParser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Parser/InlineParserEngine.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/GithubFlavoredMarkdownConverter.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Reference/ReferenceParser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Environment/Environment.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Normalizer/TextNormalizer.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/CommonMarkConverter.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Input/MarkdownInput.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Renderer/HtmlRenderer.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Util/SpecReader.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/league/commonmark/src/Util/RegexHelper.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Exception/FatalErrorException.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionLoopClosure.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionClosure.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Formatter/TraceFormatter.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Output/ProcOutputPager.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/ExecutionLoop/ProcessForker.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Readline/Hoa/ConsoleProcessus.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Shell.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Command/EditCommand.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/psy/psysh/src/Command/ReflectingCommand.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php
+[2023-11-23 10:53:08] [INFO] Files ignored:
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/website-member/list-new-website-member.blade.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/pre-construct-property/edit-pre-construct-property.blade.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/pre-construct-property/b_26-08_edit-pre-construct-property.blade.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/sale-property/edit-sale-property.blade.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/resources/views/admin/pages/sale-property/b_26-08_edit-sale-property.blade.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/grammar/rebuildParsers.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Lexer/Emulative.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Lexer/TokenEmulator/NumericLiteralSeparatorEmulator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Node/Expr/CallLike.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nikic/php-parser/lib/PhpParser/Internal/PrintableNewAnonClassNode.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/PHPStan/AbstractMacro.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/List/languages.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/nesbot/carbon/src/Carbon/Traits/Mixin.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Runner/DefaultTestResultCache.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Runner/Filter/Factory.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/TestRunner.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/Command.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Loader.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/MoveWhitelistExcludesToCoverage.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/TextUI/XmlConfiguration/Migration/Migrations/RemoveLogTypes.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/Printer.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/PHP/DefaultPhpProcess.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/PHP/AbstractPhpProcess.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Util/Xml.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/MockClass.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/Generator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/Matcher.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/MockObject/MockTrait.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestBuilder.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestCase.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/TestSuiteIterator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/phpunit/src/Framework/Assert.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/IgnoredLinesFindingVisitor.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/ExecutableLinesFindingVisitor.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/CodeUnitFindingVisitor.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/StaticAnalysis/ParsingFileAnalyser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/phpunit/php-code-coverage/src/Filter.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/cli-parser/src/Parser.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/code-unit-reverse-lookup/src/Wizard.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/environment/src/Console.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/IntersectionType.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/IterableType.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/type/CallableType.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/type/src/ReflectionMapper.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/version/src/Version.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/global-state/src/Snapshot.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/complexity/src/Calculator.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/complexity/src/Visitor/ComplexityCalculatingVisitor.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/sebastian/lines-of-code/src/Counter.php
+[2023-11-23 10:53:08] [INFO] /home/tutunjirealty/new.tutunjirealty.com/vendor/ramsey/uuid/src/Codec/GuidStringCodec.php
